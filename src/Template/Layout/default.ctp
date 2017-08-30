@@ -34,6 +34,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->css('../bower_components/hover/css/hover-min') ?>
     <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick') ?>
     <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick-theme') ?>
+    <?= $this->Html->css('../bower_components/aos/dist/aos') ?>
 
 
 
@@ -49,6 +50,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->script('../bower_components/angular/angular-ui-router.min') ?>
 
     <?= $this->Html->script('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+    <?= $this->Html->script('../bower_components/aos/dist/aos') ?>
+
 
 
     <base href="/">
@@ -112,7 +115,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->script('Red/services') ?>
 
     <script>
-                    $(window).on('scroll', function(){
+        $(window).on('scroll', function(){
                 var $scroll_value = $(window).scrollTop();
                 var $navbar = $('.top-navbar-container');
 
@@ -122,6 +125,9 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                     $('.brand-logo img',$navbar).removeClass('small-logo').addClass('original-logo');
 
             });
+
+        
+        AOS.init();
     </script>
 </body>
 </html>

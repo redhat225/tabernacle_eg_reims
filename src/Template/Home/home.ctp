@@ -28,7 +28,7 @@
 
 <div class="row mg-padding-top-100 mg-padding-bottom-20">
 	 <div class="container mg-margin-bottom-50">
-	    <div class="col s6" >
+	    <div class="col s6"  data-aos="zoom-in-down">
 	        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
 			<h5 class="uppercase mg_prim_color mg-semi mg-margin-left-10">L'église</h5>
 			<div class="divider"></div>
@@ -38,7 +38,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia unde deleniti beatae reiciendis fuga cupiditate, dignissimos ab atque quibusdam inventore in! Dignissimos, expedita nemo iste, iusto in autem minus doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia pariatur qui, eos excepturi eveniet. Aperiam quis quasi facere, possimus libero minus rem quia recusandae perspiciatis perferendis? Ad, mollitia, a.
 			</p>
 		</div>
-		<div class="col s6">
+		<div class="col s6" data-aos="zoom-in-down">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dolores perferendis ducimus sed provident possimus eveniet. Natus suscipit quae expedita sunt maiores sequi aliquid praesentium, quia nihil nesciunt quos. Voluptatibus.
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptas accusamus, nobis esse consectetur iste, dolores maxime eius quia. Enim nesciunt, quod sunt culpa temporibus minus non dolor quibusdam commodi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptas, molestiae dolores numquam modi similique facilis voluptates sint quasi placeat. Nihil asperiores perferendis dolorum nesciunt nam architecto ratione neque similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vel aspernatur laudantium libero quasi saepe harum consectetur.
@@ -157,7 +157,7 @@
 		
 			<div class="row center mg-margin-top-50">
 			    <!-- Rachel Card -->
-				<div class="col l6 m12 s12">
+				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image">
 				        <?= $this->Html->image('members/rachel.jpg') ?>
@@ -195,7 +195,7 @@
 				</div>
 				
 				<!-- Sheki Brizou Card -->
-				<div class="col l6 m12 s12">
+				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image">
 				        <?= $this->Html->image('members/daddy.jpg') ?>
@@ -233,7 +233,7 @@
 				</div>
 			</div>
 
-			<div class="row center">
+			<div class="row center" data-aos="fade-left">
 			    <!-- Romuald Chantre David School Card -->
 				<div class="col l6 m12 s12">
 				     <div class="card horizontal">
@@ -272,7 +272,7 @@
 				</div>
 
 
-				<div class="col l6 m12 s12">
+				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image">
 				        <?= $this->Html->image('members/rachel.jpg') ?>
@@ -293,7 +293,7 @@
 			</div>
 
 			<div class="row center">
-				<div class="col l6 m12 s12">
+				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image">
 				        <?= $this->Html->image('members/rachel.jpg') ?>
@@ -311,7 +311,7 @@
 				      </div>
 				    </div>
 				</div>
-				<div class="col l6 m12 s12">
+				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image">
 				        <?= $this->Html->image('members/rachel.jpg') ?>

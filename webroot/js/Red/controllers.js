@@ -10,6 +10,8 @@ angular.module('tabernacle.controllers',[])
                 }
             });
 
+            
+
 		}])
 		.controller('HomeCtrl', ['$scope', function($scope){
 			var self = this;
