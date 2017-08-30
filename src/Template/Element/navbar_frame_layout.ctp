@@ -1,15 +1,15 @@
-<nav class="absolute-block" style="background: rgba(0, 0, 0, 0.07) !important;box-shadow: none !important;">
+<nav class="absolute-block white" style="box-shadow: none !important;z-index:1000;">
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">
-      	<?= $this->Html->image('assets/tabernacle_logo',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
+      	<?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
       </a>
-       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="ion-android-menu mg-size-33 yellow-text"></i></a>
+       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="ion-android-menu mg-size-33 mg_prim_color"></i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html" class="mg-semi yellow-text">Entrez dans le tabernacle</a></li>
-        <li><a href="badges.html" class="mg-semi yellow-text">Formation</a></li>
-        <li><a href="badges.html" class="mg-semi yellow-text">Galerie</a></li>
-        <li><a href="badges.html" class="mg-semi yellow-text">Evènement</a></li>
-        <li><a href="collapsible.html" class="mg-semi yellow-text">Contact</a></li>
+        <li><a href="sass.html" class="mg-semi mg_prim_color">Entrez dans le tabernacle</a></li>
+        <li><a href="badges.html" class="mg-semi mg_prim_color">Formation</a></li>
+        <li><a href="badges.html" class="mg-semi mg_prim_color">Galerie</a></li>
+        <li><a href="badges.html" class="mg-semi mg_prim_color">Evènement</a></li>
+        <li><a href="collapsible.html" class="mg-semi mg_prim_color">Contact</a></li>
       </ul>
 
       <ul class="side-nav" id="mobile-demo">
@@ -29,6 +29,3 @@
     </div>
   </nav>
 
-  <script>
-  	    $(".button-collapse").sideNav();
-  </script>

@@ -13,7 +13,7 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,37 +21,107 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <?= $cakeDescription ?>:
-        <?= $this->fetch('title') ?>
+        <?= $cakeDescription ?>
     </title>
-    <?= $this->Html->meta('icon') ?>
-
-    <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('cake.css') ?>
+    <?= $this->Html->meta('favicon.png','/img/favicon.png',['type'=>'icon']) ?>
 
     <?= $this->fetch('meta') ?>
+    <!-- Third Party dependencies -->
+    <?= $this->Html->css('../bower_components/materialize/dist/css/materialize.min') ?>
+    <!-- Custom Css goes here -->
+    <?= $this->Html->css('main') ?>
+    <?= $this->Html->css('ionicons-2.0.1/css/ionicons.min') ?>
+    <?= $this->Html->css('../bower_components/hover/css/hover-min') ?>
+    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick-theme') ?>
+
+
+
+
     <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
+
+    <?= $this->Html->script('jquery.js') ?>
+
+    <?= $this->Html->script('../bower_components/angular/angular.min') ?>
+    <?= $this->Html->script('../bower_components/materialize/dist/js/materialize.min') ?>
+
+    <?= $this->Html->script('../bower_components/angular/angular-materialize.min') ?>
+    <?= $this->Html->script('../bower_components/angular/angular-ui-router.min') ?>
+
+    <?= $this->Html->script('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+
+
+    <base href="/">
 </head>
-<body>
-    <nav class="top-bar expanded" data-topbar role="navigation">
-        <ul class="title-area large-3 medium-4 columns">
-            <li class="name">
-                <h1><a href=""><?= $this->fetch('title') ?></a></h1>
-            </li>
-        </ul>
-        <div class="top-bar-section">
-            <ul class="right">
-                <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
-                <li><a target="_blank" href="https://api.cakephp.org/3.0/">API</a></li>
-            </ul>
-        </div>
-    </nav>
-    <?= $this->Flash->render() ?>
-    <div class="container clearfix">
-        <?= $this->fetch('content') ?>
+<body ng-app="tabernacle-app">
+     <div class="top-navbar-container navbar-fixed">
+        <nav class="white" ng-hide="$root.preloader" style="background:url('/img/assets/bar.png') no-repeat;">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo mg-padding-left-10" style="z-index: 10;"><?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'original-logo']) ?></a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="ion-android-menu mg-size-33 mg_sec_color_1"></i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a ui-sref-active="mg_sec_background_1" ui-sref="app.home" class="mg-bold mg_prim_color">Entrez dans le tabernacle</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Formation</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Galerie</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Programme</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Contact</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Faire un don</a></li>
+                  </ul>
+
+                  <!-- Side Nav -->
+                    <ul class="side-nav" id="mobile-demo">
+                    <li><a href="">
+                        <?= $this->Html->image('assets/tabernacle_logo',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
+                    </a></li>
+                    <li class="mg-margin-top-105"><a ui-sref-active="mg_sec_background_1" ui-sref="app.home" class="mg-bold mg_prim_color">Entrez dans le tabernacle</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Formation</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Galerie</a></li>
+                    <li><a href="#!" class="mg-bold mg_prim_color">Evènement</a></li>
+                    <li class="mg-margin-bottom-15"><a href="#!" class="mg-bold mg_prim_color">Contact</a></li>
+
+                    <li class="mg_prim_background"><a href="https://web.facebook.com/tabernacle.ga" target="_blank" class="mg-semi mg_sec_color_1"><i class="ion-social-facebook mg-margin-right-1 mg_sec_color_1"></i> /tabernacle.ga</a></li>
+                      <li ><a href="#!" class="mg-semi mg_prim_color"><i class="ion-email mg-margin-right-1 mg_prim_color"></i> /contact@eglise-reims.fr</a></li>
+                    <li class="mg_sec_background_1"><a href="#!" class="mg-semi mg_prim_color"><i class="ion-android-phone-portrait mg-margin-right-1 mg_prim_color"></i> /07-68-20-91-59</a></li>
+                  </ul>
+            </div>
+          </nav>
     </div>
-    <footer>
-    </footer>
+
+    <!-- Main ui-view -->
+    <div ng-hide="$root.preloader" ui-view></div>
+    <!-- Newsletter -->
+    <div ng-hide="$root.preloader" class="row center mg-margin-bottom-0" ui-view="newsletter"></div>
+    <!-- Footer -->
+    <div ng-hide="$root.preloader" ui-view="footer"></div> 
+    
+    <div ng-show="$root.preloader" class="row center hide-on-med-and-down" style="position:relative; margin-top: 10%;">
+          <?= $this->Html->image('assets/tabernacle_logo.png',['style'=>'width:165px;']) ?>
+              <div class="container">
+                <div class="container">
+                     <div class="progress mg_prim_background">
+                        <div class="indeterminate mg_sec_background_1"></div>
+                     </div>
+                </div>
+              </div>
+
+          </div>
+    </div>
+
+    <?= $this->Html->script('Red/app') ?>
+    <?= $this->Html->script('Red/controllers') ?>
+    <?= $this->Html->script('Red/services') ?>
+
+    <script>
+                    $(window).on('scroll', function(){
+                var $scroll_value = $(window).scrollTop();
+                var $navbar = $('.top-navbar-container');
+
+                if($scroll_value>=695)
+                    $('.brand-logo img',$navbar).removeClass('original-logo').addClass('small-logo');
+                else
+                    $('.brand-logo img',$navbar).removeClass('small-logo').addClass('original-logo');
+
+            });
+    </script>
 </body>
 </html>

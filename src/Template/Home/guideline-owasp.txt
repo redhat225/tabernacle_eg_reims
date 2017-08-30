@@ -1,0 +1,27 @@
+http://www.madgi.ci/wp-login.php?action=lostpassword
+
+t.soro@madgi.ci
+
+urlabc.fr
+
+
+1-Information Gathering 
+
+Conduct Search Engine Discovery and Reconnaissance for Information Leakage (OTG-INFO-001)
+  -GHDB 
+  -Operateurs
+  -Search engines duck duck go shodan 
+Fingerprint Web Server (OTG-INFO-002)
+  - Banner grabbing manually and with tools (httprint; httprecon;netcraft;desenmascarame	)
+  - 
+Review Webserver Metafiles for Information Leakage (OTG-INFO-003)
+  -Deep explanation of robots.txt
+Enumerate Applications on Webserver (OTG-INFO-004)
+  -dns transfer zone using host command
+  -using online service dns resolver
+  -using vulnerability scanner for discovery records
+  -guessing by using reports from scanning
+Review Webpage Comments and Metadata for Information Leakage (OTG-INFO-005)
+  -analyse source code for information leakage
+
+2-Configuration and deployment management testing

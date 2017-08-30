@@ -32,8 +32,11 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->css('main') ?>
     <?= $this->Html->css('ionicons-2.0.1/css/ionicons.min') ?>
     <?= $this->Html->css('../bower_components/hover/css/hover-min') ?>
+    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick-theme') ?>
 
-    <?= $this->Html->css('../bower_components/aos/dist/aos') ?>
+
+
 
     <?= $this->fetch('css') ?>
     
@@ -44,11 +47,42 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
 
     <?= $this->Html->script('../bower_components/angular/angular-materialize.min') ?>
     <?= $this->Html->script('../bower_components/angular/angular-ui-router.min') ?>
-    <?= $this->Html->script('../bower_components/aos/dist/aos') ?>
+
+    <?= $this->Html->script('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+
 </head>
-<body style="background: url('/img/Sans-titre-1.png') 100% 103%;">
-<?= $this->element('navbar_frame_layout') ?>
-
-
+<body>
+   <div class="row center position-absolute" style="width: 100%;position: absolute; z-index: 1000;">
+        <p>      
+          <a href="#" class="brand-logo">
+        <?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
+         </a>
+        </p>
+    <div class="row center">
+      <ul>
+        <li><a href="sass.html" class="mg-semi mg_prim_color">Entrez dans le tabernacle</a></li>
+        <li><a href="badges.html" class="mg-semi mg_prim_color">Formation</a></li>
+        <li><a href="badges.html" class="mg-semi mg_prim_color">Galerie</a></li>
+        <li><a href="badges.html" class="mg-semi mg_prim_color">Evènement</a></li>
+        <li><a href="collapsible.html" class="mg-semi mg_prim_color">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+   <div class="row center carrousel-container mg-margin-0" style="width: 100%;height: 100%;">
+       <div><?= $this->Html->image('Sans-titre-1.png',['style'=>'width: 100%;height: 100%; display:block;']) ?></div>
+       <div><?= $this->Html->image('screenshot-carrousel-2.jpg',['style'=>'width: 100%;height: 100%; display:block;']) ?></div>
+   </div>
+<script>
+   $('.carrousel-container').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false,
+          arrows:false,
+          autoplay:true,
+           fade: true,
+  cssEase: 'linear'   
+   });
+</script>
 </body>
 </html>

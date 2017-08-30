@@ -41,5 +41,13 @@ class HomeController extends AppController
         $this->viewBuilder()->layout('frame_layout');
     }
 
+    public function index(){
+
+    }
+
+    public function home(){
+    	
+    }
+
 
 }

@@ -84,6 +84,21 @@
 	}
 }
 
+.mg-button-3{
+	border:2px solid $mg_color_1;
+	background:transparent;
+	border-radius:none;
+	color:#fff;
+	box-shadow:none;
+
+	&:hover{
+		background: #fff;
+		color: $mg_color_2;
+
+		transition-duration: 0.3s;
+	}
+}
+
 .mg-button-2{
 	border:2px solid $mg_color_2;
 	background:transparent;
@@ -183,6 +198,20 @@ ul#slide-out li.menu{
    cursor: pointer;
   
  }
+
+     .original-logo{
+        width: 140px;
+        transition-duration: 0.3s;
+    }
+
+    .small-logo{
+        width: 100px;
+        transition-duration: 0.3s;
+    }
+
+    #sidenav-overlay{
+        z-index: 995 !important;
+    }
 
  //navbar
  .item_top_navbar{
