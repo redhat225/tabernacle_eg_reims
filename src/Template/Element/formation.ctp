@@ -41,7 +41,7 @@
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
 				    <div class="card-image">
-				        <?= $this->Html->image('home/card_plain_element',['class'=>'activator']) ?>
+				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color">

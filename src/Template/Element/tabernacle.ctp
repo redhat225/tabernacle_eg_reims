@@ -7,7 +7,7 @@
 			              <span class="card-title mg-bold mg_prim_color mg-size-35">Tabernacle de Gloire et d'Alliance</span>
 			              <p class="mg_sec_color_1 mg-size-18 mg-semi">Une Eglise Evangélique vous ouvre ses portes à Reims.</p>
 			            </div>
-			            <div class="card-action" style="border-top:1px solid #e7cf65;">
+			            <div class="card-action" style="border-top:2px solid #e7cf65;">
 			              <a href="#joinus" class="btn mg_prim_background mg-margin-right-20 mg-semi">Je suis nouveau</a>
 			              <a href="#" class="btn mg_sec_background_1 mg-semi mg_prim_color">Le programme</a>
 			            </div>
