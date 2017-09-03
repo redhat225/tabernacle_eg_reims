@@ -5,11 +5,11 @@ angular.module('tabernacle-app',['ui.router','tabernacle.services','tabernacle.c
                 $rootScope.preloader = true;
                 if(toState.name==="app.contact")
                 {
-                    $rootScope.navbar_invisible = false;
+                    $rootScope.navbar_invisible = true;
                 }
                 else
                 {
-                    $rootScope.navbar_invisible = true;
+                    $rootScope.navbar_invisible = false;
                 }
             });
             $rootScope.$on('$viewContentLoaded', function(event, toState, toParams, fromState, fromParams) {

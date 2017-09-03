@@ -36,7 +36,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick-theme') ?>
     <?= $this->Html->css('../bower_components/aos/dist/aos') ?>
 
-
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
     <?= $this->fetch('css') ?>
@@ -52,39 +52,47 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->script('../bower_components/bower_components/slick-carousel/slick/slick') ?>
     <?= $this->Html->script('../bower_components/aos/dist/aos') ?>
 
-
-
     <base href="/">
 </head>
+
+<style>
+   body{
+      font-family: 'mg-regular','Helvetica';
+   }
+</style>
+
 <body ng-app="tabernacle-app">
      <div class="top-navbar-container navbar-fixed">
-        <nav class="white" ng-hide="$root.preloader" style="background:url('/img/assets/bar.png') no-repeat;">
+        <nav class="white" ng-hide="$root.preloader||$root.navbar_invisible" style="background:url('/img/assets/bar.png') no-repeat;">
             <div class="nav-wrapper">
               <a href="#" class="brand-logo mg-padding-left-10" style="z-index: 10;"><?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'original-logo']) ?></a>
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="ion-android-menu mg-size-33 mg_sec_color_1"></i></a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a ui-sref-active="mg_sec_background_1" ui-sref="app.home" class="mg-bold mg_prim_color">Entrez dans le tabernacle</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Formation</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Galerie</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Programme</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Contact</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Faire un don</a></li>
+                    <li><a href="#tabernacle-container" class="mg-bold mg_prim_color navbar-link">Entrez dans le tabernacle</a></li>
+                    <li><a href="#program-container" class="mg-bold mg_prim_color navbar-link">Programme</a></li>
+                    <li><a href="#galerie-container" class="mg-bold mg_prim_color navbar-link">Galerie</a></li>
+
+                    <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link">Formation</a></li>
+                    <li><a href="#donate-container" class="mg-bold mg_prim_background white-text">Faire un don</a></li>
+                    <li><a href="#!" class="mg-bold mg_sec_background_1 mg_prim_color" ui-sref="app.contact">Contact</a></li>
                   </ul>
 
                   <!-- Side Nav -->
                     <ul class="side-nav" id="mobile-demo">
-                    <li><a href="">
-                        <?= $this->Html->image('assets/tabernacle_logo',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
-                    </a></li>
-                    <li class="mg-margin-top-105"><a ui-sref-active="mg_sec_background_1" ui-sref="app.home" class="mg-bold mg_prim_color">Entrez dans le tabernacle</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Formation</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Galerie</a></li>
-                    <li><a href="#!" class="mg-bold mg_prim_color">Evènement</a></li>
-                    <li class="mg-margin-bottom-15"><a href="#!" class="mg-bold mg_prim_color">Contact</a></li>
+                        <li><a href="">
+                            <?= $this->Html->image('assets/tabernacle_logo',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
+                        </a></li>
+                        <li class="mg-margin-top-105"><a href="#tabernacle-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Entrez dans le tabernacle</a></li>
+                        <li><a href="#program-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Programme</a></li>
+                        <li><a href="#galerie-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Galerie</a></li>
 
-                    <li class="mg_prim_background"><a href="https://web.facebook.com/tabernacle.ga" target="_blank" class="mg-semi mg_sec_color_1"><i class="ion-social-facebook mg-margin-right-1 mg_sec_color_1"></i> /tabernacle.ga</a></li>
-                      <li ><a href="#!" class="mg-semi mg_prim_color"><i class="ion-email mg-margin-right-1 mg_prim_color"></i> /contact@eglise-reims.fr</a></li>
-                    <li class="mg_sec_background_1"><a href="#!" class="mg-semi mg_prim_color"><i class="ion-android-phone-portrait mg-margin-right-1 mg_prim_color"></i> /07-68-20-91-59</a></li>
+                        <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Formation</a></li>
+                        <li><a href="#!" class="mg-bold mg_prim_color">Faire un don</a></li>
+                        <li><a class="mg-bold mg_prim_color" ui-sref="app.contact">Contact</a></li>
+
+                        <li class="mg_prim_background"><a href="https://web.facebook.com/tabernacle.ga" target="_blank" class="mg-semi mg_sec_color_1"><i class="ion-social-facebook mg-margin-right-1 mg_sec_color_1"></i> /tabernacle.ga</a></li>
+                          <li ><a href="#!" class="mg-semi mg_prim_color"><i class="ion-email mg-margin-right-1 mg_prim_color"></i> /contact@eglise-reims.fr</a></li>
+                        <li class="mg_sec_background_1"><a href="#!" class="mg-semi mg_prim_color"><i class="ion-android-phone-portrait mg-margin-right-1 mg_prim_color"></i> /07-68-20-91-59</a></li>
                   </ul>
             </div>
           </nav>
@@ -97,8 +105,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <!-- Footer -->
     <div ng-hide="$root.preloader" ui-view="footer"></div> 
     
-    <div ng-show="$root.preloader" class="row center hide-on-med-and-down" style="position:relative; margin-top: 10%;">
-          <?= $this->Html->image('assets/tabernacle_logo.png',['style'=>'width:165px;']) ?>
+    <div ng-show="$root.preloader" class="row center" style="position:relative; margin-top: 10%;">
+          <?= $this->Html->image('assets/tabernacle_logo.png',['style'=>'width:145px;']) ?>
               <div class="container">
                 <div class="container">
                      <div class="progress mg_prim_background">

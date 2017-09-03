@@ -10,6 +10,14 @@
 	cursor:pointer;
 }
 
+.is_video{
+	background-color:rgba(253, 216, 53, 0.40);
+
+	&.playing{
+	   background-color:rgba(86, 28, 86, 0.56);
+	}
+}
+
 
 .interactive_banner{
     overflow:hidden;
@@ -127,6 +135,17 @@ ul#slide-out li.menu{
 	    -moz-transition: all 0.1s;
 	    -o-transition: all 0.1s;
 	    transition: all 0.1s;
+	}
+}
+
+.navbar-link{
+	&.active{
+		border-bottom:3px solid $mg_color_2;
+	}
+
+	&.active.side-nav-link{
+		border-bottom:none;
+		background-color:$mg_color_2;
 	}
 }
 

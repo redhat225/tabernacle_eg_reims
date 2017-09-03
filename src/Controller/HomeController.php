@@ -35,6 +35,10 @@ class HomeController extends AppController
 
     public function beforeFilter(Event $event){
         parent::beforeFilter($event);
+        if(!$this->request->is('ajax'))
+        {
+            $this->request->params['action'] = 'index';
+        }
     }
 
     public function frame(){
@@ -44,9 +48,11 @@ class HomeController extends AppController
     public function index(){
 
     }
+    public function home(){	
+    }
 
-    public function home(){
-    	
+    public function contact(){
+
     }
 
 

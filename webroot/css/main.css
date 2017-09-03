@@ -56,7 +56,7 @@
  * 
  */
 .mg_prim_color {
-  color: #872d87 !important; }
+  color: #6f2570 !important; }
 
 .mg_sec_color_1 {
   color: #fdd835 !important; }
@@ -83,7 +83,7 @@
   color: #ff003c !important; }
 
 .mg_prim_background {
-  background: #872d87 !important; }
+  background: #6f2570 !important; }
 
 .mg_sec_background_1 {
   background: #fdd835 !important; }
@@ -41911,6 +41911,11 @@ p.redirect-top:hover {
 .pointer {
   cursor: pointer; }
 
+.is_video {
+  background-color: rgba(253, 216, 53, 0.4); }
+  .is_video.playing {
+    background-color: rgba(86, 28, 86, 0.56); }
+
 .interactive_banner {
   overflow: hidden; }
   .interactive_banner img {
@@ -41965,7 +41970,7 @@ p.redirect-top:hover {
     transition-duration: 0.3s; }
 
 .mg-button-3 {
-  border: 2px solid #872d87;
+  border: 2px solid #6f2570;
   background: transparent;
   border-radius: none;
   color: #fff;
@@ -41992,24 +41997,30 @@ p.redirect-top:hover {
 ul#slide-out li.menu a {
   background: transparent; }
 ul#slide-out li.menu.active a {
-  background: #872d87; }
+  background: #6f2570; }
 ul#slide-out li.menu:hover:not(.social_area) {
-  background: #872d87;
+  background: #6f2570;
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
   -o-transition: all 0.1s;
   transition: all 0.1s; }
+
+.navbar-link.active {
+  border-bottom: 3px solid #fdd835; }
+.navbar-link.active.side-nav-link {
+  border-bottom: none;
+  background-color: #fdd835; }
 
 .light-bold {
   font-weight: 500; }
 
 .item-navbar-top:hover {
   transition-duration: 0.3s;
-  color: #872d87 !important; }
+  color: #6f2570 !important; }
 
 .mg-search-navbar-item:hover {
   transition-duration: 0.3s;
-  color: #872d87 !important; }
+  color: #6f2570 !important; }
 
 .mg-prim-button:hover {
   background: transparent !important; }
@@ -42018,7 +42029,7 @@ ul#slide-out li.menu:hover:not(.social_area) {
   display: none; }
 
 .slick-carrousel .slick-dots li button:before {
-  color: #872d87; }
+  color: #6f2570; }
 
 .slick-carrousel .slick-dots {
   position: relative !important; }
@@ -42064,13 +42075,13 @@ ul#slide-out li.menu:hover:not(.social_area) {
   z-index: 995 !important; }
 
 .item_top_navbar.active {
-  border-bottom: 3px solid #872d87; }
+  border-bottom: 3px solid #6f2570; }
 .item_top_navbar:hover {
   border-bottom: 3px solid #fdd835;
   transition-duration: 0.6s; }
 
 .active-side {
-  border-left: 5px solid #872d87; }
+  border-left: 5px solid #6f2570; }
 
 @media only screen and (min-width: 993px) {
   .large-right-float-only-and-center-above {
@@ -42103,44 +42114,27 @@ ul#slide-out li.menu:hover:not(.social_area) {
  * 
  */
 /*scrollbar styles*/
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  background: #676767; }
-
-::-webkit-scrollbar-thumb {
-  /* Barre */
-  -webkit-border-radius: 5px;
-  -webkit-border-top-right-radius: 9px 5px;
-  -webkit-border-bottom-right-radius: 9px 5px;
-  -webkit-box-shadow: inset 0 0 0 1px #1b1b1b, inset 0 0 0 6px #1b1b1b; }
-
-::-webkit-scrollbar-thumb:hover {
-  /* Barre */
-  -webkit-box-shadow: inset 0 0 0 1px #872d87, inset 0 0 0 6px #872d87; }
-
-::-webkit-scrollbar-thumb:horizontal {
-  /* Barre du bas */
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px 9px;
-  -webkit-border-bottom-left-radius: 5px 9px; }
-
 li.menu {
   line-height: 61px; }
   li.menu.active a {
     background: white;
-    border-bottom: 3px solid #872d87;
+    border-bottom: 3px solid #6f2570;
     line-height: 61px; }
   li.menu a {
     line-height: 61px; }
   li.menu a:hover {
     background: white;
-    border-bottom: 3px solid #872d87;
+    border-bottom: 3px solid #6f2570;
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     -o-transition: all 0.1s;
     transition: all 0.1s;
     line-height: 61px; }
+
+.indicator-item {
+  background-color: #fdd835 !important; }
+  .indicator-item.active {
+    background-color: #6f2570 !important; }
 
 .contrast-input {
   /* label color */
@@ -42157,11 +42151,11 @@ li.menu {
   .contrast-input.input-field input:focus + label {
     color: #000; }
   .contrast-input.input-field input:focus {
-    border-bottom: 1px solid #872d87;
-    box-shadow: 0 1px 0 0 #872d87; }
+    border-bottom: 1px solid #6f2570;
+    box-shadow: 0 1px 0 0 #6f2570; }
   .contrast-input.input-field input.ng-valid, .contrast-input textarea.ng-valid {
-    border-bottom: 1px solid #872d87;
-    box-shadow: 0 1px 0 0 #872d87; }
+    border-bottom: 1px solid #6f2570;
+    box-shadow: 0 1px 0 0 #6f2570; }
   .contrast-input.input-field input.ng-invalid, .contrast-input textarea.ng-invalid {
     border-bottom: 1px solid red;
     box-shadow: 0 1px 0 0 red; }
@@ -42172,11 +42166,11 @@ li.menu {
     color: #000; }
 
 [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after {
-  background-color: #872d87 !important;
+  background-color: #6f2570 !important;
   z-index: 0; }
 
 [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:before, [type="radio"].with-gap:checked + label:after {
-  border: 2px solid #872d87 !important; }
+  border: 2px solid #6f2570 !important; }
 
 div.message {
   text-align: center;
@@ -42185,7 +42179,7 @@ div.message {
   font-weight: normal;
   padding: 0 1.5rem 0 1.5rem;
   transition: height 300ms ease-out 0s;
-  background-color: #872d87;
+  background-color: #6f2570;
   color: white;
   top: 15px;
   right: 15px;
@@ -42228,11 +42222,11 @@ div.message.hidden {
   /* valid color */
   /* invalid color */ }
   .login-input.input-field input:focus {
-    border-bottom: 1px solid #872d87 !important;
-    box-shadow: 0 1px 0 0 #872d87 !important; }
+    border-bottom: 1px solid #6f2570 !important;
+    box-shadow: 0 1px 0 0 #6f2570 !important; }
   .login-input.input-field input.ng-valid {
-    border-bottom: 1px solid #872d87 !important;
-    box-shadow: 0 1px 0 0 #872d87 !important; }
+    border-bottom: 1px solid #6f2570 !important;
+    box-shadow: 0 1px 0 0 #6f2570 !important; }
   .login-input.input-field input.ng-invalid {
     border-bottom: 1px solid red !important;
     box-shadow: 0 1px 0 0 red !important; }
@@ -42255,7 +42249,7 @@ div.message.hidden {
 .la-ball-scale-ripple {
   display: block;
   font-size: 0;
-  color: #872d87; }
+  color: #6f2570; }
 
 .la-ball-scale-ripple.la-dark {
   color: #333; }
