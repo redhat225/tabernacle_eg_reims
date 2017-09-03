@@ -80,7 +80,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                   <!-- Side Nav -->
                     <ul class="side-nav" id="mobile-demo">
                         <li><a href="">
-                            <?= $this->Html->image('assets/tabernacle_logo',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
+                            <?= $this->Html->image('assets/tabernacle_logo.png',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
                         </a></li>
                         <li class="mg-margin-top-105"><a href="#tabernacle-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Entrez dans le tabernacle</a></li>
                         <li><a href="#program-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Programme</a></li>
