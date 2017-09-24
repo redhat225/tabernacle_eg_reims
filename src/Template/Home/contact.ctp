@@ -2,19 +2,22 @@
 	<div class="container">
 		 <div class="container">
 		 	 <?= $this->Html->image('assets/tabernacle_logo_2.png',['style'=>'width:160px; cursor:pointer;','ui-sref'=>'app.home']) ?>
-		 	 <p class="mg-semi mg-margin-top-40 mg-margin-bottom-65" style="color: #2a2a2a;">
+		 	  <h6 class="mg-bold mg_prim_color mg-margin-bottom-20"><i>Une maison de prière pour tous où chacun se sent chez soi</i> </h6>
+		 	 <p class="mg-semi mg-margin-top-40 mg-margin-bottom-40" style="color: #2a2a2a;">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta aliquid eius laboriosam nostrum unde modi possimus dolore illo, rem illum, tempora consequatur obcaecati, fugiat nisi amet eos dolorem nulla.
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore reiciendis voluptas asperiores perspiciatis sint necessitatibus similique eveniet magni, iusto quam voluptate quae itaque quaerat eos, nobis error incidunt iure ratione! <br>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae at ad. Ab voluptates reiciendis neque debitis. Repellat quo perspiciatis quibusdam rerum, corporis inventore vero nulla voluptas sunt! Ex, error.
 		 	 </p>
 
-		 	  <h5 class="mg-semi" style='text-transform:uppercase;color: #2a2a2a;'>Contact</h5>
+		 	  <h5 class="bold" style='text-transform:uppercase;color: #2a2a2a;'>Contact</h5>
 
 		 	  <div class="container">
 		 	  	<div class="container">
 				 	  <p class="mg-semi" style="color: #2a2a2a;">
 				 	  		Tabernacle de Gloire et d'Alliance<br>
-							CIS Reims -	 21, rue Chaussée Bocquaine <br>
+				 	  		5 Rue du colonel Fabien <br>
+							51100 Reims <br> 
+							07-68-20-91-59 <br>
 				 	  </P>
 
 				 	  		<a href="https://www.facebook.com/tabernacle.ga" class="hvr-bob" target="_blank">
@@ -34,6 +37,6 @@
 	</div>
 </div>
 
-<div class="row center mg-margin-bottom-0" style="height::	;00px;">
-   <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.5011025302306!2d4.0196061155073375!3d49.24907167932767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e974f6602ea62f%3A0x9daa65e014751c46!2sCIS+de+Champagne!5e0!3m2!1sfr!2sci!4v1504406025004" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+	<div class="row center mg-margin-bottom-0" style="height::	;00px;">
+		<iframe style="width:100%;display: block;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.4038984435547!2d4.016934315688254!3d49.24978997932771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e974f94a6273e7%3A0xf783e7245bde4258!2s5+Rue+du+Colonel+Fabien%2C+51100+Reims%2C+France!5e0!3m2!1sfr!2s!4v1506127645970" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>

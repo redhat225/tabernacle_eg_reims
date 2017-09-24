@@ -8,25 +8,26 @@
 
 		  <!-- Pics Area -->
 		   <div class="container-img-1">
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/b.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/c.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/d.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/e.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/f.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/g.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/i.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-5.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-4.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-2.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-1.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/n.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-6.jpg',['style'=>'width:130%;']) ?></div>
 		  </div>
 
-		   <div class="container-img-2">
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/b.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/c.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/d.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/e.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/f.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/g.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/i.jpg',['style'=>'width:130%;']) ?></div>
+		   <div class="container-img-2 mg-margin-top-10">
+		   	    <div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/3.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/2.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/4.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/j.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/5.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/6.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/1.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:130%;']) ?></div>
+
 		  </div>
 	</div>
 
@@ -37,58 +38,53 @@
 
 			</div>
 
-		    <div class="col l12 m12 s12 video-slick-container">
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
+		    <div class="col l12 m12 s12 video-slick-container mg-margin-top-10">
+
+			  		    <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/aTFZ5xT8neY?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
+
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/aTFZ5xT8neY?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
 			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
 
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
+
+			  		    <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/cPUSeYYrBrI?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
+
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/cPUSeYYrBrI?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
 			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
+
+			  		    <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/zunp_YqNRfg?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
+
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/zunp_YqNRfg?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
 			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
 
+			  		   <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/gMaVJA6xIk4?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
 
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
-			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/gMaVJA6xIk4?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
+			  		   </div>
 
+			  		   <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/Uk7oKGypo0Y?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
 
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
-			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
-
-
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
-			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
-
-			  		<div class="mg-margin-right-60 relative-block">
-			  		    <div class="absolute-block is_video block-player" style="top: 0px;left: 0px;width: 130%;height: 100%;">
-			  		    	<i class="large material-icons player-icon yellow-text pointer tooltipped text-lighten-5 absolute-block" style="top:20%;left: 35%;" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xtCVbSaPhP0?rel=0">play_circle_outline</i>
-			  		    </div>
-			  		    <?= $this->Html->image('carrousel_home/a.jpg',['style'=>'width:130%;']) ?>   
-			  		</div>
-			  		
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/Uk7oKGypo0Y?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
+			  		  </div>
 		  </div>
 
 		</div>
@@ -97,27 +93,38 @@
 
 <script>
 $('.tooltipped').tooltip();
-	$('.player-icon').hover(function(){
-		$(this).empty().append('play_circle_filled');
-	}, function(){
-		$(this).empty().append('play_circle_outline');
-	});	
 
+	first_player = true;
 
 	$('.player-icon').bind('click', function(){
-		var attr = $(this).attr('video-attr');
 
-        var video_element = $('<iframe width="853" height="480" frameborder="0" allowfullscreen></iframe>').attr('src',attr);
-		var video_container = $('<div class="video-container"></div>');
+		if($(this).hasClass('playing'))
+		{
+			Materialize.toast('Vidéo en cours de lecture',4000,'mg_prim_background white-text');
+		}
+		else
+		{
+			if(first_player)
+			{
+			    var attr = "//www.youtube.com/embed/aTFZ5xT8neY?rel=0";
+			    first_player = false;
+			}
+			else
+				var attr = $(this).attr('video-attr');
 
-		$('.block-player').removeClass('playing');
-		$(this).parent().addClass('playing');
+	        var video_element = $('<iframe width="853" height="480" frameborder="0" allowfullscreen></iframe>').attr('src',attr);
+			var video_container = $('<div class="video-container"></div>');
 
-		$('#current-video-container').empty();
-		video_container.append(video_element).appendTo('#current-video-container');
+			$('.player-icon').removeClass('playing');
+			$(this).addClass('playing');
+
+			$('#current-video-container').empty();
+			video_container.append(video_element).appendTo('#current-video-container');
+		}
+
 	});
 
-	$('.player-icon').eq(0).trigger('click');
+	$('.player-icon:eq(0)').trigger('click');
 
 </script>
 

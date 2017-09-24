@@ -28,3 +28,14 @@ angular.module('tabernacle.services',[])
 				}
 			};
 		}])
+		.factory('CookieService',['$http','$q', function($http,$q){
+			return{
+				check: function(){
+					return $http.get('/home/bannerState').then(function(response){
+						return response;
+					}, function(errResponse){
+						return $q.reject(errResponse);
+					});
+				}
+			}
+		}])

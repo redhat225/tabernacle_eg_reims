@@ -11,12 +11,12 @@
 		<div class="row center event-area">
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
-				    <div class="card-image">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color">
-				          <h6 class="mg-bold left-align uppercase">3 Jours de transformation</h6>
+				          <h6 class="mg-bold left-align uppercase">retraites spirituelles</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
 				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
@@ -40,7 +40,7 @@
 		     </div>
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
-				    <div class="card-image">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
@@ -65,7 +65,7 @@
 		     </div>
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
-				    <div class="card-image">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
@@ -90,7 +90,7 @@
 		     </div>
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
-				    <div class="card-image">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
@@ -115,7 +115,7 @@
 		     </div>
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
-				    <div class="card-image">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
@@ -140,7 +140,7 @@
 		     </div>
 		     <div class="col l6 m12 s12">
 				<div class="card horizontal">
-				    <div class="card-image">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">

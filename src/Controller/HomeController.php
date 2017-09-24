@@ -19,6 +19,8 @@ use Cake\Network\Exception\ForbiddenException;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\Event\Event;
+use Cake\Network\Exception;
+
 /**
  * Static content controller
  *
@@ -34,9 +36,23 @@ class HomeController extends AppController
     }
 
     public function beforeFilter(Event $event){
-        parent::beforeFilter($event);
+        parent::beforeFilter($event);;
+
         if(!$this->request->is('ajax'))
         {
+
+            if(!$this->Cookie->check('banner'))
+            {
+                $this->Cookie->configKey('banner',[
+                    'expires' => '+1 day',
+                    'httpOnly' => true
+                ]);
+
+                $this->Cookie->write('banner','undone');
+            }
+            else
+                $this->Cookie->write('banner','done');
+
             $this->request->params['action'] = 'index';
         }
     }
@@ -53,6 +69,23 @@ class HomeController extends AppController
 
     public function contact(){
 
+    }
+
+
+    public function bannerState(){
+        if($this->request->is('ajax')){
+
+            try{
+                $banner_state = $this->Cookie->read('banner');
+                $this->RequestHandler->renderAs($this, 'json');
+
+                $this->set(compact('banner_state'));
+                $this->set('_serialize',['banner_state']);
+            } catch(Exception $e){
+                 throw new Exception\NotFoundException(__('Not Found'));
+            }
+
+        }
     }
 
 

@@ -6,6 +6,8 @@ angular.module('tabernacle-app',['ui.router','tabernacle.services','tabernacle.c
                 if(toState.name==="app.contact")
                 {
                     $rootScope.navbar_invisible = true;
+
+                    console.log(toState);
                 }
                 else
                 {
@@ -40,7 +42,18 @@ angular.module('tabernacle-app',['ui.router','tabernacle.services','tabernacle.c
 			    			templateUrl:'/element/footer',
 			    			controller:'MainCtrl as mainctrl'
 			    		}
+			    	},
+			    	resolve:{
+			    		checkCookie: ['CookieService','$state', function(CookieService,$state){
+			    			return CookieService.check().then(function(response){
+			    				return response;
+			    			}, function(errResponse){
+			    				Materialize.toast('Une erreur est survenue', 4000,'red mg-bold white-text')
+			    				$state.go('app.home');
+			    			});
+			    		}]
 			    	}
+
 			    })
 			    .state('app.home',{
 			    	url:'home',

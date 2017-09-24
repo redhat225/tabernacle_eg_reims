@@ -9,21 +9,19 @@
               <div class="col l3 s12 m12 mg-padding-left-0">
                 <h5 class="white-text mg-regular">Menu</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Entrez dans le tabernacle</a></li>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Formation</a></li>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Galerie</a></li>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Programme</a></li>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Contact</a></li>
+                  <li><a class="grey-text text-lighten-3 mg-regular" href="#tabernacle-container">Entrez dans le tabernacle</a></li>
+                  <li><a class="grey-text text-lighten-3 mg-regular" href="#program-container">Programme</a></li>
+                  <li><a class="grey-text text-lighten-3 mg-regular" href="#galerie-container">Galerie</a></li>
+                  <li><a class="grey-text text-lighten-3 mg-regular" href="#formation-container">Formation</a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Faire un don</a></li>
+                  <li><a class="grey-text text-lighten-3 mg-regular" ui-sref="app.contact">Contact</a></li>
                 </ul>
               </div>
-
 
               <div class="col l4 s12 m12 mg-padding-left-0">
                 <h5 class="white-text">Adresse</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">5 Rue du colonel Fabien</a></li>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Arret Tram Comedie</a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">51100 Reims </a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">France</a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Contact: 07-68-20-91-59</a></li>
@@ -60,10 +58,20 @@
           </div>
           <div class="footer-copyright mg_prim_background">
             <div class="container">
-            © 2017 TAG - Tous droits réservés
-            <a href="https://www.riehl-emmanuel.xyz" class="grey-text text-lighten-4 right" href="#!">Made With ❤️ By Red 
+            © 2017 TGA - Tous droits réservés
+            <a href="https://www.riehl-emmanuel.xyz" id="heartbeat" class="grey-text text-lighten-4 right" href="#!">Made With <strong id="heart">❤️</strong> By Red 
            </a>
 
             </div>
           </div>
         </footer>
+
+<script>
+  $(document).ready(function(){
+      $('#heartbeat').hover(function(){
+          $('#heart',this).empty().append('💓');
+      }, function(){  
+          $('#heart',this).empty().append('❤️');
+      });
+  });
+</script>
