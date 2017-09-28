@@ -78,6 +78,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                     <li><a href="#galerie-container" class="mg-bold mg_prim_color navbar-link">Galerie</a></li>
 
                     <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link">Formation</a></li>
+                    <li><a href="#cbw-container" class="mg-bold mg_prim_color navbar-link">CBW</a></li>
                     <li><a href="#donate-container" class="mg-bold mg_prim_background white-text">Faire un don</a></li>
                     <li><a href="#!" class="mg-bold mg_sec_background_1 mg_prim_color" ui-sref="app.contact">Contact</a></li>
                   </ul>
@@ -92,6 +93,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                         <li><a href="#galerie-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Galerie</a></li>
 
                         <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Formation</a></li>
+                        <li><a href="#cbw-container" class="mg-bold mg_prim_color navbar-link side-nav-link">CBW</a></li>
+
                         <li><a href="#!" class="mg-bold mg_prim_color">Faire un don</a></li>
                         <li><a class="mg-bold mg_prim_color" ui-sref="app.contact">Contact</a></li>
 
@@ -142,8 +145,6 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                     $('.brand-logo img',$navbar).removeClass('small-logo').addClass('original-logo');
 
             });
-
-        
         AOS.init();
     </script>
 </body>
