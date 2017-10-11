@@ -19,10 +19,6 @@
 
 <?= $this->element('map') ?>
 
-<script>
-	alert('une image floue provoque des erreurs de fonctionnement du site et pourrait pertuber l\'experience des internautes, veuillez la retirer');
-</script>
-
 
 
 

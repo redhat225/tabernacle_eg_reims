@@ -88,5 +88,32 @@ class HomeController extends AppController
         }
     }
 
+    public function program(){
+        if($this->request->is('ajax')){
+            if($this->request->is('get')){
+                $query_data = $this->request->query;
+                        $this->loadModel('TabernacleEvents');
+                    
+
+                        $events = $this->TabernacleEvents->find()
+                                                         ->order(['TabernacleEvents.event_begin_date'=>'ASC'])
+                                                         ->limit(4)
+                                                         ->page($query_data['page'])
+                                                         ->map(function($row){
+                                                            $begin_date = new \DateTime($row->event_begin_date); 
+                                                            $row->ref_month = $begin_date->format('m');
+                                                            return $row;
+                                                       });
+
+                        $events_count = $this->TabernacleEvents->find()->count();
+
+                        $this->RequestHandler->renderAs($this, 'json');
+
+                        $this->set(compact('events','events_count'));
+                        $this->set('_serialize',['events','events_count']);
+            }
+        }
+    }
+
 
 }

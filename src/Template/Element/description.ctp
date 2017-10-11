@@ -7,15 +7,27 @@
 			<div class="divider"></div>
 			<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10" style="clear:both;">Tabernacle de gloire</h4>
 			<h4 class="uppercase mg_prim_color mg-bold">Et d'alliance</h4>
-			<p class="mg-regular">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia unde deleniti beatae reiciendis fuga cupiditate, dignissimos ab atque quibusdam inventore in! Dignissimos, expedita nemo iste, iusto in autem minus doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia pariatur qui, eos excepturi eveniet. Aperiam quis quasi facere, possimus libero minus rem quia recusandae perspiciatis perferendis? Ad, mollitia, a.
-			</p>
+				<h6 class="uppercase mg-semi mg-padding-top-10">C'est votre lieu de prière et d'adoration</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">C'est votre lieu d'écoute et de ressourcement</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">C'est votre lieu de formation et de conseil</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">C'est votre lieu de refuge et de protection</h6>
+				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-10">Notre fondation</h5>
+				<h6 class="uppercase mg-bold mg-padding-top-10">Jesus Christ de Nazareth</h6>
 		</div>
-		<div class="col l6 m6 s12" data-aos="zoom-in-down">
-			<p class="mg-regular">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dolores perferendis ducimus sed provident possimus eveniet. Natus suscipit quae expedita sunt maiores sequi aliquid praesentium, quia nihil nesciunt quos. Voluptatibus.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptas accusamus, nobis esse consectetur iste, dolores maxime eius quia. Enim nesciunt, quod sunt culpa temporibus minus non dolor quibusdam commodi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptas, molestiae dolores numquam modi similique facilis voluptates sint quasi placeat. Nihil asperiores perferendis dolorum nesciunt nam architecto ratione neque similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vel aspernatur laudantium libero quasi saepe harum consectetur.
-			</p>
+		<div class="col l6 m6 s12 mg-margin-bottom-140" data-aos="zoom-in-down">
+				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-20">Notre mission</h5>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Annoncer la bonne nouvelle</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Vous réconcilier avec Dieu</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Vous apprendre à Prier</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Vous connecter à la bonne source pour briller</h6>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Vous faire entrer dans votre destinée</h6>
+
+				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-10">Notre Détermination</h5>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Faire de vous un <strong>"Héros"</strong></h6>
+
+				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-0">Notre Satisfaction</h5>
+				<h6 class="uppercase mg-semi mg-padding-top-10">Vous voir épanoui(e)</h6>
+
 		</div>
 	 </div>
 	  <div class="carousel mg-height-400 mg-margin-top-400">

@@ -38,4 +38,14 @@ angular.module('tabernacle.services',[])
 					});
 				}
 			}
+		}]).factory('ProgramService',['$http','$q', function($http,$q){
+			return{
+				get:function(page_set){
+					return $http.get('/home/program',{params:{'page':page_set}}).then(function(response){
+						return response;
+					}, function(errResponse){
+						return $q.reject(errResponse);
+					});
+				}
+			}
 		}])

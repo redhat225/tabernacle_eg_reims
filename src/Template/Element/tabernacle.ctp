@@ -14,27 +14,23 @@
 			          </div>
 			        </div>
 	           	</div>
-		    <div class="parallax carrousel-container ">
-		        <div class="mg-height-650">
-	               <?= $this->Html->image('sec_1.jpg') ?>
-	            </div>
-	           <div class="mg-height-650">
-	               <?= $this->Html->image('sec_2.jpg') ?>
-	            </div>
-	           <div class="mg-height-650">
-	               <?= $this->Html->image('screenshot1.jpg',['style'=>'bottom:-100px !important;']) ?>
-	           </div>
-	            <div class="mg-height-650">
-	               <?= $this->Html->image('screenshot3.jpg') ?>
-	            </div> 
-	           <div class="mg-height-650">
-	               <?= $this->Html->image('sec.jpg') ?>
-	            </div> 	
-	             <div class="mg-height-650">
-	               <?= $this->Html->image('sec_3.jpg') ?>
-	            </div> 	
-
-	       </div>
+			    <div class="parallax carrousel-container ">
+			        <div class="mg-height-650">
+		               <?= $this->Html->image('sec_1.jpg') ?>
+		            </div>
+		           <div class="mg-height-650">
+		               <?= $this->Html->image('sec_2.jpg') ?>
+		            </div>
+		           <div class="mg-height-650">
+		               <?= $this->Html->image('screenshot1.jpg',['style'=>'bottom:-100px !important;']) ?>
+		           </div>
+		            <div class="mg-height-650">
+		               <?= $this->Html->image('screenshot3.jpg') ?>
+		            </div> 
+		           <div class="mg-height-650">
+		               <?= $this->Html->image('sec.jpg') ?>
+		            </div> 	
+		       </div>
 	</div>
 
 

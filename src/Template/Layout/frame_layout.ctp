@@ -32,8 +32,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->css('main') ?>
     <?= $this->Html->css('ionicons-2.0.1/css/ionicons.min') ?>
     <?= $this->Html->css('../bower_components/hover/css/hover-min') ?>
-    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick') ?>
-    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick-theme') ?>
+    <?= $this->Html->css('../bower_components/slick-carousel/slick/slick'.css) ?>
+    <?= $this->Html->css('../bower_components/slick-carousel/slick/slick-theme.css') ?>
 
 
 
@@ -48,7 +48,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->script('../bower_components/angular/angular-materialize.min') ?>
     <?= $this->Html->script('../bower_components/angular/angular-ui-router.min') ?>
 
-    <?= $this->Html->script('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+    <?= $this->Html->script('../bower_components/slick-carousel/slick/slick.js') ?>
 
 </head>
 <body>

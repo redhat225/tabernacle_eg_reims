@@ -32,8 +32,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->css('main') ?>
     <?= $this->Html->css('ionicons-2.0.1/css/ionicons.min') ?>
     <?= $this->Html->css('../bower_components/hover/css/hover-min') ?>
-    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick') ?>
-    <?= $this->Html->css('../bower_components/bower_components/slick-carousel/slick/slick-theme') ?>
+    <?= $this->Html->css('../bower_components/slick-carousel/slick/slick') ?>
+    <?= $this->Html->css('../bower_components/slick-carousel/slick/slick-theme') ?>
     <?= $this->Html->css('../bower_components/aos/dist/aos') ?>
 
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -49,8 +49,9 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <?= $this->Html->script('../bower_components/angular/angular-materialize.min') ?>
     <?= $this->Html->script('../bower_components/angular/angular-ui-router.min') ?>
 
-    <?= $this->Html->script('../bower_components/bower_components/slick-carousel/slick/slick') ?>
+    <?= $this->Html->script('../bower_components/slick-carousel/slick/slick') ?>
     <?= $this->Html->script('../bower_components/aos/dist/aos') ?>
+    <?= $this->Html->script('../node_modules/shave/dist/shave') ?>
 
     <base href="/">
 </head>
@@ -62,7 +63,6 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
 </style>
 
 <body ng-app="tabernacle-app">
-     
      <div class="top-navbar-container navbar-fixed">
         <nav class="white" ng-hide="$root.preloader||$root.navbar_invisible" style="background:url('/img/assets/bar.png') no-repeat;">
             <div class="nav-wrapper">

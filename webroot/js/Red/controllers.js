@@ -15,7 +15,7 @@ angular.module('tabernacle.controllers',[])
 		    if(checkCookie.data.banner_state === "undone")
 		        $rootScope.openModal = true;
 		}])
-		.controller('HomeCtrl', ['$scope', function($scope){
+		.controller('HomeCtrl', ['$scope','ProgramService', function($scope,ProgramService){
 			var self = this;
 			angular.element('.materialboxed').materialbox();
 		    angular.element('.tooltipped').tooltip({delay:50});
@@ -160,8 +160,66 @@ angular.module('tabernacle.controllers',[])
 				]
 		    });
 
+
+		    //loading program
+		    self.program = ProgramService;
+
+		    self.get_program = function(page_set){
+			    self.program.get(page_set).then(function(response){
+			    	self.preloader_program = true;
+			    	self.events = response.data.events;
+			    	self.page_total = response.data.events_count;
+
+		            self.events.forEach(function(element,index){
+		                var months = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+		                for(let i in months)
+		                {
+		                	i++;
+		                	console.log(i);
+		                    if (i == parseInt(element.ref_month))
+		                    {
+		                        element.ref_month_full = months[i-1];
+		                    }
+		                }
+		            });
+
+			    	console.log(self.events);
+
+			    }, function(errResponse){
+			    	console.log(errResponse);
+			    }).finally(function(){
+			    	self.preloader_program = false;
+			    });
+		    };
+		    self.page_set = 1;
+		    self.get_program(self.page_set);
+
+
 		}])
 		.controller('ContactCtrl', ['$scope', function($scope){
 			var self =this;
 
 		}])
+		.filter('cut', function () {
+        return function (value, wordwise, max, tail) {
+            if (!value) return '';
+
+            max = parseInt(max, 10);
+            if (!max) return value;
+            if (value.length <= max) return value;
+
+            value = value.substr(0, max);
+            if (wordwise) {
+                var lastspace = value.lastIndexOf(' ');
+                if (lastspace !== -1) {
+                  //Also remove . and , so its gives a cleaner result.
+                  if (value.charAt(lastspace-1) === '.' || value.charAt(lastspace-1) === ',') {
+                    lastspace = lastspace - 1;
+                  }
+                  value = value.substr(0, lastspace);
+                }
+            }
+
+            return value + (tail || ' …');
+        };
+    })
