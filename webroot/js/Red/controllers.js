@@ -12,8 +12,6 @@ angular.module('tabernacle.controllers',[])
                 draggable: true, // Choose whether you can drag to open on touch screens,
             });
 
-            console.log(checkCookie);
-
 		    if(checkCookie.data.banner_state === "undone")
 		        $rootScope.openModal = true;
 		}])
@@ -129,9 +127,8 @@ angular.module('tabernacle.controllers',[])
 			  speed:500,
 		      slidesToShow: 4,
 		       slidesToScroll: 4,
-		       adaptiveHeight: true,
 		        focusOnSelect: true,
-		         adaptiveHeight: true,
+		         centerMode:true,
 		         dots:true,
 		      responsive: [
 
@@ -139,10 +136,8 @@ angular.module('tabernacle.controllers',[])
 				      breakpoint: 1024,
 				      settings: {
 				        arrows: true,
-				        centerMode: true,
 				        slidesToShow: 3,
 		                slidesToScroll: 3,
-		                 adaptiveHeight: true,
 				      }
 					},
 
@@ -150,9 +145,7 @@ angular.module('tabernacle.controllers',[])
 				      breakpoint: 768,
 				      settings: {
 				        arrows: true,
-				        centerMode: true,
 				        slidesToShow: 2,
-				         adaptiveHeight: true,
 		                slidesToScroll: 2,
 				      }
 				    },
@@ -160,8 +153,6 @@ angular.module('tabernacle.controllers',[])
 				      breakpoint: 480,
 				      settings: {
 				        arrows: true,
-				        centerMode: true,
-				         adaptiveHeight: true,
 				        slidesToShow: 1,
 				        slidesToScroll: 1,
 				      }

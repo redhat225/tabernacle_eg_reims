@@ -30,6 +30,9 @@
 	           <div class="mg-height-650">
 	               <?= $this->Html->image('sec.jpg') ?>
 	            </div> 	
+	             <div class="mg-height-650">
+	               <?= $this->Html->image('sec_3.jpg') ?>
+	            </div> 	
 
 	       </div>
 	</div>
@@ -42,14 +45,16 @@
 		        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
 				<h5 class="uppercase mg_prim_color mg-semi mg-margin-left-10 left-align">à l'affiche</h5>
 				<div class="divider"></div>
-				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">Spéciale Jéricho souccot</h4>
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">A partir du 06 Octobre 2017</h5>
+				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">Fête des tabernacles</h4>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">15 Octobre 2017</h5>
 			</div>
 			<div class="col l6 m6 s12 left-align">
-				<p class="left-align mg-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi corporis, perspiciatis explicabo porro cum, incidunt! Rem praesentium voluptas, sapiente atque, quae corrupti magni nesciunt veritatis inventore minima. Commodi, blanditiis vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum incidunt ipsum aperiam molestiae quisquam, laboriosam quis. Ipsa beatae alias quos accusantium mollitia nostrum rerum voluptatibus maxime harum, eos at eum.
+				<p class="left-align mg-regular">
+					La fête des Tabernacles était si importante pour Jésus-Christ qu’Il Se rendit à Jérusalem pour la célébrer bien que sachant Sa vie en danger (Jean 7:1-26).
+					Jésus-Christ ayant célébré la Fête des Tabernacles,  le Tabernacle de Gloire et d’Alliance vous invite aussi a venir célébrer ce moment merveilleux Dimanche 15 oct.
 				</p>
 				
-				<a data-target='prime_event_modal' modal class="mg-margin-top-20 btn mg_prim_background white-text hoverable mg-semi">En Savoir Plus</a>
+				<a data-target='prime_event_modal' modal class="btn mg_prim_background white-text hoverable mg-semi">En Savoir Plus</a>
 			</div>
 		</div>
 	</div>
@@ -66,10 +71,10 @@
 				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">Tous les Dimanches</h5>
 			</div>
 			<div class="col l6 m6 s12 left-align">
-				<p class="left-align mg-regular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi corporis, perspiciatis explicabo porro cum, incidunt! Rem praesentium voluptas, sapiente atque, quae corrupti magni nesciunt veritatis inventore minima. Commodi, blanditiis vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum incidunt ipsum aperiam molestiae quisquam, laboriosam quis. Ipsa beatae alias quos accusantium mollitia nostrum rerum voluptatibus maxime harum, eos at eum.
+				<p class="left-align mg-regular">Le Culte au sein du tabernacle est un moment fort de ressourcement dans la présence du Seigneur Jesus Christ.Au programme , Louange Adoration; Enseignement, Priere, Délivrance/Libération, Restauration, Partage et rencontre, Ecole du dimanche.Ouvert à tous il vous permettra de rendre grâce au Seigneur dans la joie et la bonne humeur d’une famille chrétienne à votre écoute.
 				</p>
 				
-				<a href="#joinus" class="mg-margin-top-20 btn mg_prim_background white-text hoverable mg-semi">Je suis nouveau</a>
+				<a href="#joinus" class="btn mg_prim_background white-text hoverable mg-semi">Je suis nouveau</a>
 			</div>
 		</div>
 	</div>
@@ -84,9 +89,7 @@
 						
 						<div class="row mg-margin-top-10">
 							<div class="col s12 l5 m5">
-							    <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Spéciale Jéricho Souccot</h5>
-						<!-- 	    <h6 class="mg_sec_color_1 mg-semi-italic left-align">Invités: Bishop Philippe KOTI</h6>
-							    <h6 class="mg_sec_color_1 mg-semi-italic left-align">Hote: Ev.Rachel</h6> -->
+							    <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Fête des tabernacles</h5>
 							</div>
 							<div class="col s12 l6 m6">
 
@@ -95,7 +98,9 @@
 					<div class="row">
 					    <div class="col s12 l11 m11 offset-l1 offset-m1">
 							<p class="mg-regular">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.
+							  La fête des Tabernacles était si importante pour Jésus-Christ qu’Il Se rendit à Jérusalem pour la célébrer bien que sachant Sa vie en danger (Jean 7:1-26).
+							  Jésus-Christ ayant célébré la Fête des Tabernacles,  le Tabernacle de Gloire et d’Alliance vous invite aussi a venir célébrer ce moment merveilleux Dimanche 15 oct.
+							  Le nom de la Fête des Tabernacles tire son origine des « tabernacles » ou tentes ou demeures temporaires dans lesquelles Dieu ordonne à  Son peuple de séjourner pendant cette fête de sept jours. Ces logements temporaires commémorent l’exode d'Israël hors d’Égypte, mais nous rappellent aussi la nature temporaire de notre vie physique (Lévitique 23:43; II Pierre 1:13-15). Ceci nous aide à réaliser qu’il y a autre chose que cette vie physique et que nous attendons de nouveaux cieux et une nouvelle terre et la vie éternelle (II Pierre 3:10-13).
 							</p>
 					    </div>
 					</div>
@@ -105,12 +110,5 @@
 				    <div class="modal-footer mg_prim_background">
 				        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text mg-semi">Fermer</a>
 				    </div>
-	</div>
-
-	<?= $this->element('description') ?>
-
-	<?= $this->element('ministere') ?>
-
-
-	
+	</div>	
 </div>

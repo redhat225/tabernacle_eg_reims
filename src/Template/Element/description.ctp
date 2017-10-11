@@ -19,65 +19,65 @@
 		</div>
 	 </div>
 	  <div class="carousel mg-height-400 mg-margin-top-400">
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/6.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/6.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">La missionnaire Rachel Splendeur</span>
 	  	    </a>
 
-	  	   <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/1.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	   <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/1.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">La missionnaire Rachel Splendeur</span>
 	  	    </a>
 
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/3.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/3.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">La missionnaire Rachel Splendeur</span>
 	  	    </a>
 
-	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/j.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/j.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
 
 
-	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-2.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-2.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
-	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-1.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-1.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-5.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-5.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/4.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/4.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Eglise du tabernacle de gloire et d'alliance</span>
 	  	    </a>
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-4.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-4.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">La missionnaire Rachel Splendeur</span>
 	  	    </a>
 
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/5.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/5.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Eglise du tabernacle de gloire et d'alliance</span>
 	  	    </a>
 
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
-	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 	  
 
-	  	  	<a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	  	<a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
-	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/n.jpg',['style'=>'width:100%;','class'=>'materialboxed']) ?>
+	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/n.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 	  
