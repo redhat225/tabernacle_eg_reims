@@ -2,7 +2,7 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
-
+use Cake\Utility\Text;
 /**
  * TabernacleNewsletter Entity
  *
@@ -29,4 +29,10 @@ class TabernacleNewsletter extends Entity
         '*' => true,
         'id' => false
     ];
+
+    protected function _setNewsletterUuid()
+    {
+       return Text::uuid();
+    }
+
 }

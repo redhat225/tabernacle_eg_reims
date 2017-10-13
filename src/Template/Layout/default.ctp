@@ -51,7 +51,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
 
     <?= $this->Html->script('../bower_components/slick-carousel/slick/slick') ?>
     <?= $this->Html->script('../bower_components/aos/dist/aos') ?>
-    <?= $this->Html->script('../node_modules/shave/dist/shave') ?>
+    <?= $this->Html->script('cleave.js/dist/cleave-angular') ?>
+    <?= $this->Html->script('cleave.js/dist/addons/cleave-phone.fr') ?>
 
     <base href="/">
 </head>
@@ -60,16 +61,21 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
    body{
       font-family: 'mg-regular','Helvetica';
    }
+   .pagination li.active {
+    background-color: #6f2571 !important;
+   }
 </style>
 
 <body ng-app="tabernacle-app">
+   <?= $this->Flash->render() ?>
+  
      <div class="top-navbar-container navbar-fixed">
         <nav class="white" ng-hide="$root.preloader||$root.navbar_invisible" style="background:url('/img/assets/bar.png') no-repeat;">
             <div class="nav-wrapper">
 
               <a href="#" class="brand-logo mg-padding-left-10 hide-on-med-and-down" style="z-index: 10;"><?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'original-logo']) ?></a>
 
-              <a href="#" class="brand-logo hide-on-large-only" style="z-index: 10;"><?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'mg-width-75']) ?></a>
+              <a href="#" class="brand-logo hide-on-large-only" style="z-index: 10;"><?= $this->Html->image('assets/tabernacle_logo_2.png',['class'=>'mg-width-70']) ?></a>
 
               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="ion-android-menu mg-size-33 mg_sec_color_1"></i></a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -86,7 +92,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                   <!-- Side Nav -->
                     <ul class="side-nav" id="mobile-demo">
                         <li><a href="">
-                            <?= $this->Html->image('assets/tabernacle_logo.png',['class'=>'mg-width-125 mg-margin-left-30 mg-padding-top-10']) ?>
+                            <?= $this->Html->image('assets/tabernacle_logo.png',['class'=>'mg-width-110 mg-margin-left-30 mg-padding-top-10']) ?>
                         </a></li>
                         <li class="mg-margin-top-105"><a href="#tabernacle-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Entrez dans le tabernacle</a></li>
                         <li><a href="#program-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Programme</a></li>
@@ -112,8 +118,8 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
     <!-- Footer -->
     <div ng-hide="$root.preloader" ui-view="footer"></div> 
     
-    <div ng-show="$root.preloader" class="row center" style="position:relative; margin-top: 10%;">
-          <?= $this->Html->image('assets/tabernacle_logo.png',['style'=>'width:145px;']) ?>
+    <div ng-show="$root.preloader" class="row center" style="position:relative; margin-top: 12%;">
+          <?= $this->Html->image('assets/tabernacle_logo.png',['style'=>'width:110px;']) ?>
               <div class="container">
                 <div class="container">
                       <h6 class="mg-bold mg_prim_color mg-margin-bottom-20"><i>Une maison de prière pour tous où chacun se sent chez soi</i> </h6>

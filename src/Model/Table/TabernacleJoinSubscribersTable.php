@@ -59,7 +59,13 @@ class TabernacleJoinSubscribersTable extends Table
         $validator
             ->scalar('subscriber_email')
             ->requirePresence('subscriber_email', 'create')
-            ->notEmpty('subscriber_email');
+            ->notEmpty('subscriber_email')
+            ->add('newsletter_email',[
+                'email' => [
+                    'rule' => ['email',true,'/^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-z]{2,8}$/'],
+                    'message' => 'email is invalid'
+                ]
+            ]);
 
         $validator
             ->scalar('subscriber_contact')

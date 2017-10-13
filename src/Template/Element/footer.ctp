@@ -44,15 +44,17 @@
             </div>
 
             <div class="row">
-              <div class="col l4 s12 m12 mg-padding-left-0">
-                <span class="mg-semi white-text">Restez connecté à l'église du tabernacle de gloire et d'alliance</span>
-              </div>
-              <div class="col l6 s12 m6 mg-margin-top-0 input-field contrast-input mg-padding-0 mg-padding-left-0">
-                    <input type="email" placeholder="Newsletter" ng-model="contact.email" ng-pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-z]{2,8}$/">
-              </div>
-              <div class="col l2 s12 m6 mg-margin-top-0 mg-padding-left-0">
-                   <a href="" class="btn mg-height-46 yellow darken-2 white-text mg-padding-top-5">Soumettre</a>
-              </div>
+              <form ng-submit="mainctrl.newsletter(mainctrl.newsletter_object)" name="newsletter_form">
+                <div class="col l4 s12 m12 mg-padding-left-0">
+                  <span class="mg-semi white-text">Restez connecté à l'église du tabernacle de gloire et d'alliance</span>
+                </div>
+                <div class="col l6 s12 m12 mg-margin-top-0 input-field contrast-input mg-padding-0 mg-padding-left-0">
+                      <input type="email" placeholder="Newsletter" required ng-model="mainctrl.newsletter_object.newsletter_email" ng-pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-z]{2,8}$/">
+                </div>
+                <div class="col l2 s12 m12 mg-margin-top-0 mg-padding-0">
+                     <button type="submit" ng-disabled="newsletter_form.$invalid || mainctrl.is_newsletter_subscribing" class="btn mg-height-46 yellow darken-2 white-text mg-padding-top-5" style="width: 100%;">Soumettre</a>
+                </div>
+              </form>
             </div>
             
           </div>

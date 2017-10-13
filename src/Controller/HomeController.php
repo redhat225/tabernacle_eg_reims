@@ -20,7 +20,7 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\Event\Event;
 use Cake\Network\Exception;
-
+use Pheanstalk\Pheanstalk;
 /**
  * Static content controller
  *
@@ -71,6 +71,34 @@ class HomeController extends AppController
 
     }
 
+    public function poster(){
+        if($this->request->is('ajax')){
+        if($this->request->is('get')){
+                 try{
+                      $this->loadModel('TabernacleEvents');
+                       $actual_date  = new \DateTime();
+                       $format_actual_date  = $actual_date->format('Y-m-d');
+                       $poster = $this->TabernacleEvents->find()
+                                           ->where(['TabernacleEvents.event_begin_date >= '=>$format_actual_date])
+                                           ->order(['TabernacleEvents.created'=>'asc'])
+                                           ->first();
+
+                       if($poster)
+                       {
+                         $begin_date = new \DateTime($poster->event_begin_date); 
+                         $poster->ref_month = $begin_date->format('m');
+                       }                    
+
+                       $this->RequestHandler->renderAs($this, 'json');
+                       $this->set(compact('poster'));
+                       $this->set('_serialize',['poster']);
+                 }catch(Exception $e){
+                  throw new Exception\BadRequestException(__('Bad Request'));
+                 }
+         }
+        }
+    }
+
 
     public function bannerState(){
         if($this->request->is('ajax')){
@@ -111,6 +139,42 @@ class HomeController extends AppController
 
                         $this->set(compact('events','events_count'));
                         $this->set('_serialize',['events','events_count']);
+            }
+        }
+    }
+
+    public function joinus(){
+        if($this->request->is('ajax')){
+            if($this->request->is('post')){
+                $data = $this->request->data;
+                $this->loadModel('TabernacleJoinSubscribers');
+                $contact = $this->TabernacleJoinSubscribers->newEntity($data);
+
+                if(!$contact->errors())
+                {
+                    if($this->TabernacleJoinSubscribers->save($contact))
+                    {
+                        //open tube
+                        $pheanstalk = new Pheanstalk('127.0.0.1');
+                        $payload = ['contact'=>$contact];
+                        $pheanstalk
+                        ->useTube('JoinUsTubeTabernacle')
+                        ->put(json_encode($payload));
+
+                        $this->RequestHandler->renderAs($this, 'json');
+
+                        $message = 'ok';
+                        $this->set(compact('message'));
+                        $this->set('_serialize',['message']);
+                    }else
+                    {
+                      throw new Exception\BadRequestException(__('Bad Request'));
+                    }
+                }else
+                {
+                   throw new Exception\BadRequestException(__('Bad Request'));
+                }
+
             }
         }
     }

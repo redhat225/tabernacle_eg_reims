@@ -9,18 +9,19 @@
 	      <h4 class="uppercase mg_prim_color mg-bold">Et d'alliance</h4>
 		<!-- Events content area -->
 		<div class="row center event-area mg-margin-bottom-50" ng-hide="homectrl.preloader_program">
-		     <div class="col l6 m12 s12" ng-repeat="e in homectrl.events">
-				<div class="card horizontal" style="max-height:346px;">
+
+		     <div class="col l6 m6 s12 mg-margin-top-30" ng-repeat="e in homectrl.events">
+				<div class="card horizontal">
 				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked" >
-				        <div class="card-content mg_prim_color mg-padding-15" style="overflow-y: auto;">
+				        <div class="card-content mg_prim_color mg-padding-15" style="min-height:400px;">
 				          <h6 class="mg-bold left-align uppercase">{{e.event_fullname}}</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Le {{e.event_begin_date | date: 'dd'}} {{e.ref_month_full}} {{e.event_begin_date | date: 'yyyy'}}</h6>
 				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">{{e.event_location}}</h6>  <br>
-				          <p class="mg-regular left-align desc-mini-text-program">{{e.event_full_description | cut:true:150:' ...'}}</p>
+				          <p class="mg-regular left-align desc-mini-text-program">{{e.event_full_description | cut:true:120:' ...'}}</p>
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				      </div>
@@ -33,6 +34,20 @@
 				 </div>
 		     </div>
 		</div>
+
+
+		  <div class="preloader-wrapper active" ng-show="homectrl.preloader_program">
+		    <div class="spinner-layer spinner-red-only mg_prim_color">
+		      <div class="circle-clipper left">
+		        <div class="circle"></div>
+		      </div><div class="gap-patch">
+		        <div class="circle"></div>
+		      </div><div class="circle-clipper right">
+		        <div class="circle"></div>
+		      </div>
+		    </div>
+		  </div>
+		
 		<div class="row center">
 			<pagination class="mg-margin-top-20"
 			    page="1"
@@ -46,6 +61,7 @@
 			    scroll-top="false"
 			    pagination-action="homectrl.get_program(page)" />
 		</div>
+
 
 
 		<!-- Preloader content area -->

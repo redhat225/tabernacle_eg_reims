@@ -121,7 +121,7 @@
 				</div>
 			</div>
 
-			<div class="row center" data-aos="fade-left">
+			<div class="row center" data-aos="fade-right">
 			    <!-- Romuald Chantre David School Card -->
 				<div class="col l6 m12 s12">
 				     <div class="card horizontal">

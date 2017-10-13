@@ -49,6 +49,12 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->fallbacks(DashedRoute::class);
 });
 
+Router::scope('/newsletter', function (RouteBuilder $routes) {
+    $routes->connect('/subscribe', ['controller' => 'Newsletter', 'action' => 'subscribe']);
+    $routes->connect('/unsubscribe/:token', ['controller' => 'Newsletter', 'action' => 'unsubscribe']);
+    $routes->fallbacks(DashedRoute::class);
+});
+
 /**
  * Load all plugin routes. See the Plugin documentation on
  * how to customize the loading of plugin routes.

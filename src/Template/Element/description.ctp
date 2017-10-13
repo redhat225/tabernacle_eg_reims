@@ -1,7 +1,7 @@
 	<!-- Church Description -->
 <div class="row mg-padding-top-40 mg-padding-bottom-40">
 	 <div class="container mg-margin-bottom-50">
-	    <div class="col l6 m6 s12"  data-aos="zoom-in-down">
+	    <div class="col l6 m6 s12" >
 	        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
 			<h5 class="uppercase mg_prim_color mg-semi mg-margin-left-10">L'église</h5>
 			<div class="divider"></div>
@@ -14,7 +14,7 @@
 				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-10">Notre fondation</h5>
 				<h6 class="uppercase mg-bold mg-padding-top-10">Jesus Christ de Nazareth</h6>
 		</div>
-		<div class="col l6 m6 s12 mg-margin-bottom-140" data-aos="zoom-in-down">
+		<div class="col l6 m6 s12 mg-margin-bottom-130">
 				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-20">Notre mission</h5>
 				<h6 class="uppercase mg-semi mg-padding-top-10">Annoncer la bonne nouvelle</h6>
 				<h6 class="uppercase mg-semi mg-padding-top-10">Vous réconcilier avec Dieu</h6>

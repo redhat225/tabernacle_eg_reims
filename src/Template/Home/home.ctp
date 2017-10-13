@@ -1,8 +1,5 @@
 <?= $this->element('tabernacle') ?>
 
-	<?= $this->element('description') ?>
-
-	<?= $this->element('ministere') ?>
 
 
 <?= $this->element('programme') ?>

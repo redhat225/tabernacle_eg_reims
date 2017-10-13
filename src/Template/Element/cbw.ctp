@@ -37,19 +37,19 @@
 
 		<!-- Pricing CBW -->
 		<div class="row center container event-area">
-		     <div class="col l6 m12 s12 mg-margin-top-40">
+		     <div class="col l6 m6 s12 mg-margin-top-40">
 				<div class="card horizontal">
 				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
-				        <div class="card-content mg_prim_color">
+				        <div class="card-content mg_prim_color" style="min-height:400px;">
 				          <h6 class="mg-bold left-align uppercase">Winner Visio</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-bold mg_sec_color_1 left-align">Participation 25&euro;/an
 				          <p class="mg-semi-italic">
 				          	<ul class="left-align mg_prim_color">
-				          		<li class="mg-margin-top-10 mg-semi-italic">Statut de membre</li>
+				          		<li class="mg-margin-top-35 mg-semi-italic">Statut de membre</li>
 				          		<li class="mg-margin-top-10 mg-semi-italic">Consulting</li>
 				          		<li class="mg-margin-top-10 mg-semi-italic">Participation à titre préférentiel</li>
 				          		<li class="mg-margin-top-10 mg-semi-italic">Visibilité sur le portail</li>
@@ -60,13 +60,13 @@
 				      </div>
 				 </div>
 		     </div>
-		     <div class="col l6 m12 s12 mg-margin-top-40">
+		     <div class="col l6 m6 s12 mg-margin-top-40">
 				<div class="card horizontal">
-				    <div class="card-image" style="background: #e8d061;">
+				    <div class="card-image" style="background: #e8d061;" style="min-height:400px;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
-				        <div class="card-content mg_prim_color">
+				        <div class="card-content mg_prim_color" style="min-height:400px;">
 				          <h6 class="mg-bold left-align uppercase">Winner Hero</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-bold mg_sec_color_1 left-align">Participation 100-250&euro;/an</h6>
@@ -75,7 +75,7 @@
 				          		<li class="mg-semi-italic mg-margin-top-10">Statut de partenaire</li>
 				          		<li class="mg-semi-italic mg-margin-top-10">Publication et communication</li>
 				          		<li class="mg-semi-italic mg-margin-top-10">Intervention en tant qu'orateur</li>
-				          		<li class="mg-semi-italic mg-margin-top-10">Participation à tous les évènements</li>
+				          		<li class="mg-semi-italic mg-margin-top-10">Participation aux évènements</li>
 				          	</ul>
 				          </p>
 				        </div>
@@ -85,14 +85,14 @@
 		</div>
 
 		<div class="row center container event-area">
-		     <div class="col l6 m12 s12 mg-margin-top-40">
+		     <div class="col l6 m6 s12 mg-margin-top-40">
 				<div class="card horizontal">
-				    <div class="card-image" style="background: #e8d061;">
+				    <div class="card-image" style="background: #e8d061;" style="min-height:400px;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
-				        <div class="card-content mg_prim_color">
-				          <h6 class="mg-bold left-align uppercase">Winner Gold</h6>
+				        <div class="card-content mg_prim_color" style="min-height:400px;">
+				          <h6 class="mg-bold left-align uppercase" >Winner Gold</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-bold mg_sec_color_1 left-align">Participation 250-500&euro; /an</h6>
 				          <p class="mg-regular">
@@ -107,19 +107,19 @@
 				      </div>
 				 </div>
 		     </div>
-		     <div class="col l6 m12 s12 mg-margin-top-40">
+		     <div class="col l6 m6 s12 mg-margin-top-40">
 				<div class="card horizontal">
 				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
-				        <div class="card-content mg_prim_color">
+				        <div class="card-content mg_prim_color" style="min-height:400px;"> 
 				          <h6 class="mg-bold left-align uppercase">Winner Royal</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-bold mg_sec_color_1 left-align">Participation +500&euro;/an</h6>
 				          <p class="mg-regular">
 				          	<ul class="left-align">
-				          		<li class="mg-semi-italic mg-margin-top-10">Statut de donateur officiel</li>
+				          		<li class="mg-semi-italic mg-margin-top-30">Statut de donateur officiel</li>
 				          		<li class="mg-semi-italic mg-margin-top-10">Posture honorifique</li>
 				          		<li class="mg-semi-italic mg-margin-top-10">Parrain des évènements VIP</li>
 				          		<li class="mg-semi-italic mg-margin-top-10">Représentation sur nos médias</li>

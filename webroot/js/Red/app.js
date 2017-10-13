@@ -1,4 +1,4 @@
-angular.module('tabernacle-app',['ui.router','tabernacle.services','tabernacle.controllers','ui.materialize'])
+angular.module('tabernacle-app',['ui.router','tabernacle.services','tabernacle.controllers','ui.materialize','cleave.js'])
 		.run(['$rootScope', function($rootScope){
 		    // Verifications Here
 		    $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {

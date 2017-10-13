@@ -1,5 +1,5 @@
 angular.module('tabernacle.controllers',[])
-		.controller('MainCtrl', ['$rootScope','$scope','$window','$anchorScroll','$location','checkCookie', function($rootScope,$scope,$window,$anchorScroll,$location,checkCookie){
+		.controller('MainCtrl', ['$rootScope','$scope','$window','$anchorScroll','$location','checkCookie','NewsletterService', function($rootScope,$scope,$window,$anchorScroll,$location,checkCookie,NewsletterService){
 		   var self = this;
 		    angular.element(".button-collapse").sideNav({
                 onOpen: function(el){
@@ -14,8 +14,37 @@ angular.module('tabernacle.controllers',[])
 
 		    if(checkCookie.data.banner_state === "undone")
 		        $rootScope.openModal = true;
+
+		    //manage newsletter
+		    self.newsletter_object = {
+		    	newsletter_email:'',
+		    	newsletter_uuid:'default'
+		    };
+
+	        self.newsletter = function(newsletter_object){
+	            self.is_newsletter_subscribing = true;
+	            NewsletterService.subscribe(newsletter_object).then(function(response){
+	                Materialize.toast('Félicitations, votre demande a été enregistrée',4000,'mg_prim_background white-text bold');
+	                newsletter_object = self.newsletter_object;
+	            }, function(errResponse){
+	               switch(errResponse.status){
+	                case 401:
+	                    Materialize.toast('Cette adresse existe déjà',4000,'orange white-text bold');
+	                break;
+
+	                default:
+	                   Materialize.toast('Une erreur est survenue, veuillez réessayer',4000,'orange white-text bold');
+	                break;
+	               }
+	            }).finally(function(){
+	                self.is_newsletter_subscribing = false;
+	            });     
+	        };
+
+
+
 		}])
-		.controller('HomeCtrl', ['$scope','ProgramService', function($scope,ProgramService){
+		.controller('HomeCtrl', ['$scope','ProgramService','JoinService','PosterService','TrainingService', function($scope,ProgramService,JoinService,PosterService,TrainingService){
 			var self = this;
 			angular.element('.materialboxed').materialbox();
 		    angular.element('.tooltipped').tooltip({delay:50});
@@ -53,7 +82,7 @@ angular.module('tabernacle.controllers',[])
 					{
 				      breakpoint: 1024,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        centerMode: true,
 				        slidesToShow: 3,
 		                slidesToScroll: 1,
@@ -63,7 +92,7 @@ angular.module('tabernacle.controllers',[])
 				    {
 				      breakpoint: 768,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        centerMode: true,
 				        slidesToShow: 2,
 		                slidesToScroll: 1,
@@ -72,7 +101,7 @@ angular.module('tabernacle.controllers',[])
 				    {
 				      breakpoint: 480,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        centerMode: true,
 				        slidesToShow: 1,
 				        slidesToScroll: 1,
@@ -94,7 +123,7 @@ angular.module('tabernacle.controllers',[])
 					{
 				      breakpoint: 1024,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        centerMode: true,
 				        slidesToShow: 3,
 		                slidesToScroll: 1,
@@ -104,7 +133,7 @@ angular.module('tabernacle.controllers',[])
 				    {
 				      breakpoint: 768,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        centerMode: true,
 				        slidesToShow: 2,
 		                slidesToScroll: 1,
@@ -113,7 +142,7 @@ angular.module('tabernacle.controllers',[])
 				    {
 				      breakpoint: 480,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        centerMode: true,
 				        slidesToShow: 1,
 				        slidesToScroll: 1,
@@ -129,13 +158,14 @@ angular.module('tabernacle.controllers',[])
 		       slidesToScroll: 4,
 		        focusOnSelect: true,
 		         centerMode:true,
+		         arrows:false,
 		         dots:true,
 		      responsive: [
 
 					{
 				      breakpoint: 1024,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        slidesToShow: 3,
 		                slidesToScroll: 3,
 				      }
@@ -144,7 +174,7 @@ angular.module('tabernacle.controllers',[])
 				    {
 				      breakpoint: 768,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        slidesToShow: 2,
 		                slidesToScroll: 2,
 				      }
@@ -152,7 +182,7 @@ angular.module('tabernacle.controllers',[])
 				    {
 				      breakpoint: 480,
 				      settings: {
-				        arrows: true,
+				        arrows: false,
 				        slidesToShow: 1,
 				        slidesToScroll: 1,
 				      }
@@ -182,9 +212,6 @@ angular.module('tabernacle.controllers',[])
 		                    }
 		                }
 		            });
-
-			    	console.log(self.events);
-
 			    }, function(errResponse){
 			    	console.log(errResponse);
 			    }).finally(function(){
@@ -193,7 +220,79 @@ angular.module('tabernacle.controllers',[])
 		    };
 		    self.page_set = 1;
 		    self.get_program(self.page_set);
+		    // subscriptions joinus
+		    self.service = {
+				subscriber_fullname: '',
+				subscriber_contact: '',
+				subscriber_email: ''
+		    };
 
+		    $scope.options = {
+		    	fr_number:{
+		    	   phone: true,
+            	   phoneRegionCode: 'FR'
+
+		    	}
+		    };
+
+		    self.subscribe_service = function(service){
+		    	self.join_service_is_running = true;
+		    	   JoinService.subscribe(service).then(function(response){
+		    		Materialize.toast('Félicitations votre requête a été enregistrée', 4000, 'mg_prim_basckground white-text bold');
+		    		service = self.service;
+		    	}, function(errResponse){
+		    		Materialize.toast('Une erreur est survenue', 4000, 'red white-text bold');
+		    	}).finally(function(){
+		    		self.join_service_is_running = false;
+		    	});
+		    };
+
+		    // Get Poster
+
+		    PosterService.get().then(function(response){
+		    	self.poster = response.data.poster;
+
+		    	if(self.poster.ref_month)
+		    	{
+			        var months = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+			        for(let i in months)
+			        {
+			             i++;
+			                    if (i == parseInt(self.poster.ref_month))
+			                    {
+			                        self.poster.ref_month_full = months[i-1];
+			                    }
+			        }
+			        self.display_poster = true;
+
+		    	}else
+		    	    self.display_poster = false;
+
+		    }, function(errResponse){
+		    	Materialize.toast('Une Erreur est survenue, veuillez recharger la page',4000,'red white-text bold');
+		    });
+
+		    //subscription training
+
+		    self.subscriber_training = {
+		    	training_title:'Retraite Spirituelle',
+				subscriber_fullname: '',
+				subscriber_contact: '',
+				subscriber_email: ''
+		    };
+
+		    self.subscription_training  = function(subscription){
+			    self.is_training_subscribe = true;
+			    TrainingService.subscribe(subscription).then(function(response){
+			    	Materialize.toast('Félicitations votre demande a été prise en compte',4000,'mg_prim_background white-text bold');
+			    	subscription = self.subscriber_training;
+			    	$scope.openTrainingModal = false;
+			    }, function(errResponse){	
+			    	Materialize.toast('Une erreur est survenue, veuillez réessayer',4000,'red white-text bold');
+			    }).finally(function(){
+			    	self.is_training_subscribe = false;
+			    });
+		    };
 
 		}])
 		.controller('ContactCtrl', ['$scope', function($scope){

@@ -1,7 +1,7 @@
 <div id="tabernacle-container" class="scrollspy">
 	<div class="relative-block">
 	           <div class="row absolute-block mg-width-100-perc" style="top:0;left:0;z-index: 1;">
-			        <div class="col s12 m12 l6">
+			        <div class="col s12 m8 l6">
 			          <div class="card none-box-shadow" style="background-color:rgba(245, 245, 245, 1) !important;margin-top:25%;">
 			            <div class="card-content white-text">
 			              <span class="card-title mg-bold mg_prim_color mg-size-35">Tabernacle de Gloire et d'Alliance</span>
@@ -35,19 +35,18 @@
 
 
 	<!-- A l'Affiche  -->
-	<div class="row center mg-margin-bottom-0 grey lighten-4 mg-padding-top-40 mg-padding-bottom-40">
+	<div ng-show="homectrl.display_poster" class="row center mg-margin-bottom-0 grey lighten-4 mg-padding-top-40 mg-padding-bottom-40">
 		<div class="container">
 			<div class="col l6 m6 s12">
 		        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
 				<h5 class="uppercase mg_prim_color mg-semi mg-margin-left-10 left-align">à l'affiche</h5>
 				<div class="divider"></div>
-				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">Fête des tabernacles</h4>
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">15 Octobre 2017</h5>
+				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">{{homectrl.poster.event_fullname}}</h4>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">								{{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}}</h5>
 			</div>
 			<div class="col l6 m6 s12 left-align">
 				<p class="left-align mg-regular">
-					La fête des Tabernacles était si importante pour Jésus-Christ qu’Il Se rendit à Jérusalem pour la célébrer bien que sachant Sa vie en danger (Jean 7:1-26).
-					Jésus-Christ ayant célébré la Fête des Tabernacles,  le Tabernacle de Gloire et d’Alliance vous invite aussi a venir célébrer ce moment merveilleux Dimanche 15 oct.
+					{{homectrl.poster.event_full_description | cut:true:350:' ...'}}
 				</p>
 				
 				<a data-target='prime_event_modal' modal class="btn mg_prim_background white-text hoverable mg-semi">En Savoir Plus</a>
@@ -77,26 +76,21 @@
 
 
 	<!-- Prime Event Modal -->
-	<div id="prime_event_modal" class="modal">
+	<div id="prime_event_modal" class="modal" ng-show="homectrl.display_poster">
 				    <div class="modal-content">
 				        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-45 left mg-margin-right-10']) ?>
 						<h6 class="uppercase mg_prim_color mg-semi left-align">à l'affiche</h6>
 						<div class="divider"></div>
 						
 						<div class="row mg-margin-top-10">
-							<div class="col s12 l5 m5">
-							    <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Fête des tabernacles</h5>
-							</div>
-							<div class="col s12 l6 m6">
-
+							<div class="col s12 l5 m7 mg-padding-left-0">
+							    <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">{{homectrl.poster.event_fullname}}</h5>
 							</div>
 						</div>
 					<div class="row">
-					    <div class="col s12 l11 m11 offset-l1 offset-m1">
+					    <div class="col s12 l11 m11 offset-l1 offset-m1 mg-padding-0">
 							<p class="mg-regular">
-							  La fête des Tabernacles était si importante pour Jésus-Christ qu’Il Se rendit à Jérusalem pour la célébrer bien que sachant Sa vie en danger (Jean 7:1-26).
-							  Jésus-Christ ayant célébré la Fête des Tabernacles,  le Tabernacle de Gloire et d’Alliance vous invite aussi a venir célébrer ce moment merveilleux Dimanche 15 oct.
-							  Le nom de la Fête des Tabernacles tire son origine des « tabernacles » ou tentes ou demeures temporaires dans lesquelles Dieu ordonne à  Son peuple de séjourner pendant cette fête de sept jours. Ces logements temporaires commémorent l’exode d'Israël hors d’Égypte, mais nous rappellent aussi la nature temporaire de notre vie physique (Lévitique 23:43; II Pierre 1:13-15). Ceci nous aide à réaliser qu’il y a autre chose que cette vie physique et que nous attendons de nouveaux cieux et une nouvelle terre et la vie éternelle (II Pierre 3:10-13).
+								{{homectrl.poster.event_full_description}}
 							</p>
 					    </div>
 					</div>
@@ -107,4 +101,13 @@
 				        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text mg-semi">Fermer</a>
 				    </div>
 	</div>	
+
+
+
+<?= $this->element('description') ?>
+
+<?= $this->element('ministere') ?>
+
+
+	
 </div>
