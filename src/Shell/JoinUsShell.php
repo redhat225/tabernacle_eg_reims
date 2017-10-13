@@ -6,7 +6,7 @@ use Cake\Mailer\MailerAwareTrait;
 use Cake\Mailer\Email;
 use Pheanstalk\Pheanstalk;
 
-class NewsletterSubscribeShell extends Shell
+class JoinUsShell extends Shell
 {
   use MailerAwareTrait;
 
