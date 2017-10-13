@@ -25,8 +25,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td align="center" style="padding-top:20px;font-size: 11px;font-family: Helvetica, Arial, sans-serif;color:#807d7d;line-height: 17px;">
-						Je veux <a href="https://www.eglise-reims.fr/newsletter/unsubscribe/<?= $newsletter['token'] ?>">me désinscrire</a> de ce service. 
+					<td align="center" style="padding-top:20px;font-size: 11px;padding-left:90px;font-family: Helvetica, Arial, sans-serif;color:#807d7d;line-height: 17px;">
+						Je veux <a href="https://www.eglise-reims.fr/newsletter/unsubscribe/<?= $newsletter['newsletter_uuid'] ?>">me désinscrire</a> de ce service. 
 						plus d'infos sur <a href="https://www.eglise-reims.fr" target="_blank">www.eglise-reims.fr</a>  <br />
 						<b>contact: 07-68-20-91-59</b>
 					</td>

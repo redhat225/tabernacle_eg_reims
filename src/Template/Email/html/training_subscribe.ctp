@@ -24,7 +24,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td align="center" style="padding-top:20px;font-size: 11px;font-family: Helvetica, Arial, sans-serif;color:#807d7d;line-height: 17px;">
+					<td align="center" style="padding-top:20px;font-size: 11px;padding-left:90px;font-family: Helvetica, Arial, sans-serif;color:#807d7d;line-height: 17px;">
 						<b>contact: 07-68-20-91-59</b>
 						plus d'infos sur <a href="https://www.eglise-reims.fr" target="_blank">www.eglise-reims.fr</a> 
 					</td>
