@@ -52,7 +52,7 @@ class TrainingController extends AppController
                     $pheanstalk = new Pheanstalk('127.0.0.1');
                     $payload = ['training'=>$training];
                     $pheanstalk
-                    ->useTube('TrainingSubscribeTubeTabernacle')
+                    ->useTube('TrainingSubscribeTube2Tabernacle')
                     ->put(json_encode($payload));
 
                     $message = 'ok';

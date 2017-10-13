@@ -19,7 +19,7 @@ class TrainingSubscribeShell extends Shell
   public function listen()
   {
     $client = new Pheanstalk('127.0.0.1');
-    $client->watch('TrainingSubscribeTubeTabernacle');
+    $client->watch('TrainingSubscribeTube2Tabernacle');
 
     while($job = $client->reserve()){
       $message =json_decode($job->getData(),true);
