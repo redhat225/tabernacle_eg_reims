@@ -34,15 +34,13 @@ class TrainingSubscribeShell extends Shell
           {
             $client->bury($job);
             $this->out('Job Burried');
-
           }
         
     }
   }
 
   public function send($training){    
-     try
-         {
+     try{
             $email = new Email('tabernacle_main_profile');
             $email->to($training['subscriber_email'])
             ->bcc('tabernacledallianceetdegloire@gmail.com')

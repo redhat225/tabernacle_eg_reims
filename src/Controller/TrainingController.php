@@ -46,7 +46,8 @@ class TrainingController extends AppController
             if($this->request->is('post')){
                 try{
                     $data = $this->request->data;
-
+                    $this->loadModel('TabernacleJoinSubscribers');
+                    $training = $this->TabernacleJoinSubscribers->newEntity($data);
                     //send newsleter in a pipe
                     $pheanstalk = new Pheanstalk('127.0.0.1');
                     $payload = ['training'=>$training];
@@ -58,7 +59,7 @@ class TrainingController extends AppController
 
                     $this->RequestHandler->renderAs($this, 'json');
                     $this->set(compact('message'));
-                    $this->set('_serialize',['message']);  
+                    $this->set('_serialize',['message']);
 
                 }catch(Exception $e){
                       throw new Exception\BadRequestException(__('Bad Request'));

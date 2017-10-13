@@ -24,14 +24,14 @@
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a ng-click="homectrl.subscriber_training.training_title = 'Retraites Spirituelles'" data-target="training_modal" modal open="openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a ng-click="homectrl.subscriber_training.training_title = 'Retraites Spirituelles'" data-target="training_modal" modal open="homectrl.openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
 					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
 					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
 
-					      <a ng-click="homectrl.subscriber_training.training_title = 'Retraites Spirituelles'" data-target="training_modal" modal open="openTrainingModal" class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					      <a ng-click="homectrl.subscriber_training.training_title = 'Retraites Spirituelles'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 					   
 
@@ -53,13 +53,13 @@
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal" class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
 					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
 					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -78,13 +78,13 @@
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal" class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
 					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
 					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -103,13 +103,13 @@
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal" class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
 					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
 					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -128,13 +128,13 @@
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal" class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
 					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
 					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -153,13 +153,13 @@
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal" class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
 					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
 					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal open="openTrainingModal"  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>

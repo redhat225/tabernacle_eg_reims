@@ -16,16 +16,20 @@ angular.module('tabernacle.controllers',[])
 		        $rootScope.openModal = true;
 
 		    //manage newsletter
-		    self.newsletter_object = {
-		    	newsletter_email:'',
-		    	newsletter_uuid:'default'
+		    self.renew_newsletter_object = function(){
+			    self.newsletter_object = {
+			    	newsletter_email:'',
+			    	newsletter_uuid:'default'
+			    };
 		    };
+
+		    self.renew_newsletter_object();
 
 	        self.newsletter = function(newsletter_object){
 	            self.is_newsletter_subscribing = true;
 	            NewsletterService.subscribe(newsletter_object).then(function(response){
 	                Materialize.toast('Félicitations, votre demande a été enregistrée',4000,'mg_prim_background white-text bold');
-	                newsletter_object = self.newsletter_object;
+				    self.renew_newsletter_object();
 	            }, function(errResponse){
 	               switch(errResponse.status){
 	                case 401:
@@ -221,11 +225,14 @@ angular.module('tabernacle.controllers',[])
 		    self.page_set = 1;
 		    self.get_program(self.page_set);
 		    // subscriptions joinus
-		    self.service = {
-				subscriber_fullname: '',
-				subscriber_contact: '',
-				subscriber_email: ''
+		    self.renew_service = function(){
+			    self.service = {
+					subscriber_fullname: '',
+					subscriber_contact: '',
+					subscriber_email: ''
+			    };
 		    };
+		    self.renew_service();
 
 		    $scope.options = {
 		    	fr_number:{
@@ -238,8 +245,8 @@ angular.module('tabernacle.controllers',[])
 		    self.subscribe_service = function(service){
 		    	self.join_service_is_running = true;
 		    	   JoinService.subscribe(service).then(function(response){
-		    		Materialize.toast('Félicitations votre requête a été enregistrée', 4000, 'mg_prim_basckground white-text bold');
-		    		service = self.service;
+		    		Materialize.toast('Félicitations votre requête a été enregistrée', 4000, 'mg_prim_background white-text bold');
+		    		self.renew_service();
 		    	}, function(errResponse){
 		    		Materialize.toast('Une erreur est survenue', 4000, 'red white-text bold');
 		    	}).finally(function(){
@@ -273,20 +280,22 @@ angular.module('tabernacle.controllers',[])
 		    });
 
 		    //subscription training
-
-		    self.subscriber_training = {
-		    	training_title:'Retraite Spirituelle',
-				subscriber_fullname: '',
-				subscriber_contact: '',
-				subscriber_email: ''
+		    self.renew_subscriber_training = function(){
+			    self.subscriber_training = {
+			    	training_title:'Retraite Spirituelle',
+					subscriber_fullname: '',
+					subscriber_contact: '',
+					subscriber_email: ''
+			    };
 		    };
+		    self.renew_subscriber_training();
 
 		    self.subscription_training  = function(subscription){
 			    self.is_training_subscribe = true;
 			    TrainingService.subscribe(subscription).then(function(response){
 			    	Materialize.toast('Félicitations votre demande a été prise en compte',4000,'mg_prim_background white-text bold');
-			    	subscription = self.subscriber_training;
-			    	$scope.openTrainingModal = false;
+			    	self.renew_subscriber_training();
+			self.openTrainingModal = false;
 			    }, function(errResponse){	
 			    	Materialize.toast('Une erreur est survenue, veuillez réessayer',4000,'red white-text bold');
 			    }).finally(function(){
