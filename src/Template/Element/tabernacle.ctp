@@ -1,15 +1,16 @@
 <div id="tabernacle-container" class="scrollspy">
 	<div class="relative-block">
 	           <div class="row absolute-block mg-width-100-perc" style="top:0;left:0;z-index: 1;">
-			        <div class="col s12 m8 l6">
+			        <div class="col s12 m9 l7">
 			          <div class="card none-box-shadow" style="background-color:rgba(245, 245, 245, 1) !important;margin-top:25%;">
 			            <div class="card-content white-text">
 			              <span class="card-title mg-bold mg_prim_color mg-size-35">Tabernacle de Gloire et d'Alliance</span>
 			              <p class="mg_sec_color_1 mg-size-18 mg-semi">Une Eglise Evangélique vous ouvre ses portes à Reims.</p>
 			            </div>
 			            <div class="card-action" style="border-top:2px solid #e7cf65;">
-			              <a href="#joinus" class="btn mg_prim_background mg-margin-right-20 mg-semi">Je suis nouveau</a>	
-			              <a href="#program-container" class="btn mg_sec_background_1 mg-bold mg_prim_color">Le programme &nbsp;</a>
+			              <a href="#joinus" class="btn mg_prim_background mg-semi">Je suis nouveau</a>	
+			              <a href="#program-container" class="btn mg_sec_background_1 mg-bold mg_prim_color">Profession de foi</a>
+			              <a href="#program-container" class="btn mg_sec_background_1 mg-bold mg_prim_color">Le programme</a>
 			            </div>
 			          </div>
 			        </div>
@@ -61,9 +62,14 @@
 		        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
 				<h5 class="uppercase mg_prim_color mg-semi mg-margin-left-10 left-align">Les Cultes</h5>
 				<div class="divider mg_prim_background"></div>
-				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">Tabernacle de gloire</h4>
+				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-5 left-align" style="clear:both;">Tabernacle de gloire</h4>
 				<h4 class="uppercase mg_prim_color mg-bold left-align">Et d'alliance</h4>
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">Tous les Dimanches</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Dimanche 10-12h</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Vendredi 18h30-20h</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Lundi culte en ligne tel: 0755500416 code :673223</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Ecoutes spirituelles sur RDV le vendredi au 07-68-20-91-59</h5>
+
+
 			</div>
 			<div class="col l6 m6 s12 left-align">
 				<p class="left-align mg-regular">Le Culte au sein du tabernacle est un moment fort de ressourcement dans la présence du Seigneur Jesus Christ.Au programme , Louange Adoration; Enseignement, Priere, Délivrance/Libération, Restauration, Partage et rencontre, Ecole du dimanche.Ouvert à tous il vous permettra de rendre grâce au Seigneur dans la joie et la bonne humeur d’une famille chrétienne à votre écoute.

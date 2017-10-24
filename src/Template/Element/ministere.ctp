@@ -15,13 +15,13 @@
 				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				          <?= $this->Html->image('members/rachel.jpg') ?>
+				          <?= $this->Html->image('members/rachel2.jpg') ?>
 				      </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_background white-text">
 				          <h6 class="mg-bold left-align">Rachel BILONGO</h6>
 				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Missionnaire Splendeur</h6>  <br>
+				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Pasteur Missionnaire</h6>  <br>
 				          <p class="mg-regular left-align">Rachel BILONGO titulaire d’un master international business obtenu à Londres, est issue d'une famille chrétienne évangélique...</p>
 				        </div>
 				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
@@ -42,7 +42,7 @@
 						<div class="row mg-margin-top-10 mg-margin-bottom-5">
 							<div class="col s7">
 						       <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Rachel BILONGO</h5>
-						       <h6 class="mg_sec_color_1 mg-semi-italic left-align">Missionnaire Splendeur - Cofondatrice Tabernacle de gloire et d'alliance</h6>
+						       <h6 class="mg_sec_color_1 mg-semi-italic left-align">Pasteur Missionnaire - Cofondatrice Tabernacle de gloire et d'alliance</h6>
 							 </div>
 							<div class="col s3">				
 									<?=$this->Html->image('assets/tabernacle_logo_2.png',['style'=>'width:80%;']) ?>
@@ -70,14 +70,14 @@
 				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				        <?= $this->Html->image('members/daddy.jpg') ?>
+				        <?= $this->Html->image('members/daddy2.jpg') ?>
 				      </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_background white-text">
 				          <h6 class="mg-bold left-align">Shekinael BRIZOU</h6>
 				          <div class="divider yellow"></div>
 				            <h6 class="mg-semi-italic mg_sec_color_1 left-align">Révérend Père Spirituel</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae</p>
+				          <p class="mg-regular left-align">Né le 27 mai 1976 en Côte d'Ivoire, le Révérend Anicet Brizou rencontre Dieu au début des années 90 après une adolescence partagée ...</p>
 				        </div>
 				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
 			               <a  class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" modal data-target="daddy-bio-modal">En savoir plus</a>
@@ -109,7 +109,11 @@
 							   <h5 class="mg_prim_color mg-semi left-align">Biographie</h5>
 							   <div class="divider"></div>
 								<p class="mg-regular left-align">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.
+									Né le 27 mai 1976 en Côte d'Ivoire, le Révérend Anicet Brizou rencontre Dieu au début des années 90 après une adolescence partagée entre la rue, l'école et le cambriolage. En 1995, il reçoit l'appel au ministère dans l'église de son père spirituel, le Dr Robert Dion. Ainsi commence l'histoire de la vie pastorale d'un jeune homme plein de dynamisme. Ainsi, après deux années de formation théologique, pratique et théorique, il devient coordinateur du ministère de la délivrance dans l'Église en 1998.
+									De 2000 à 2005, il a créé, en collaboration avec un collègue pastoral, une mission évangélique où il était vice-président de l'église en charge de l'évangélisation et de la réhabilitation des enfants de la rue.
+									Il a également créé Alliance Israël - Côte d'Ivoire, une ONG, pour approfondir les relations entre les deux pays (Israël et Côte d'Ivoire). En 2003, il a également mis en place, en collaboration avec des pasteurs, une banque chrétienne dans le but d'éradiquer la pauvreté dans l'Église.
+									En 2007, sous l'inspiration du Saint-Esprit, il fonde la Mission Biblique de l'Alliance en Côte d'Ivoire qui atteint, en trois ans, environ huit cent membres. Au milieu de l'année 2009, il a décidé de s'installer en Israël pour une étude approfondie de la Bible. Malheureusement, en 2011, une guerre civile a éclaté en Côte d'Ivoire qui a provoqué la destruction de l'église et se voit contraint de rentrer en Côte d'Ivoire. En août 2011 à cause de la guerre dans son pays et de l’atmosphère hostile, il décide en décembre 2011, de partir du pays. Arrivé aux États-Unis d'Amérique pour une période de repos qui s'est transformée en un voyage missionnaire, il installe à partir d'un petit groupe de prière qui a commencé en 2012, Biblical Mission of Covenant. Depuis Mars 2016, Biblical Mission of Covenant a rejoint la grande Famille de Church of God (Eglise de Dieu) et est devenue Biblical Mission of Covenant-Church of God (BMC-COG).
+									Le révérend Anicet Brizou est un homme de Dieu qui parcourt les nations et les continents pour prêcher l'évangile de son Seigneur et Sauveur, Jésus-Christ.
 								</p>
 							</div>
 						</div>
@@ -122,17 +126,17 @@
 			</div>
 
 			<div class="row center" data-aos="fade-right">
-			    <!-- Romuald Chantre David School Card -->
+			    <!-- Chantre La splendeur -->
 				<div class="col l6 m12 s12">
 				     <div class="card horizontal">
 				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				        <?= $this->Html->image('members/david.jpg') ?>
+				        <?= $this->Html->image('members/singers.jpg',['style'=>'width:100%;']) ?>
 				      </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_background white-text">
-				          <h6 class="mg-bold left-align">Romuald KOFFI</h6>
+				          <h6 class="mg-bold left-align">Chorale Gospel La Splendeur</h6>
 				          <div class="divider yellow"></div> 
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Chantre</h6>  <br>
+				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Chantres</h6>  <br>
 				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae</p>
 				        </div>
 				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
@@ -144,64 +148,8 @@
 
 
 
-				<div class="col l6 m12 s12" data-aos="fade-right">
-				     <div class="card horizontal">
-				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				        <?= $this->Html->image('members/rachel.jpg') ?>
-				      </div>
-				      <div class="card-stacked">
-				        <div class="card-content mg_prim_background white-text">
-				          <h6 class="mg-bold left-align">Rachel BILONGO</h6>
-				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Missionnaire Splendeur</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae</p>
-				        </div>
-				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
-							<a class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" data-target="rachel-bio-modal" modal open="homectrl.open">En savoir plus</a>
-				        </div>
-				      </div>
-				    </div>
-				</div>
 			</div>
 
-			<div class="row center">
-				<div class="col l6 m12 s12" data-aos="fade-right">
-				     <div class="card horizontal">
-				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				        <?= $this->Html->image('members/rachel.jpg') ?>
-				      </div>
-				      <div class="card-stacked">
-				        <div class="card-content mg_prim_background white-text">
-				          <h6 class="mg-bold left-align">Rachel BILONGO</h6>
-				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Missionnaire Splendeur</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae</p>
-				        </div>
-				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
-							<a class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" data-target="rachel-bio-modal" modal open="homectrl.open">En savoir plus</a>
-				        </div>
-				      </div>
-				    </div>
-				</div>
-				<div class="col l6 m12 s12" data-aos="fade-right">
-				     <div class="card horizontal">
-				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				        <?= $this->Html->image('members/rachel.jpg') ?>
-				      </div>
-				      <div class="card-stacked">
-				        <div class="card-content mg_prim_background white-text">
-				          <h6 class="mg-bold left-align">Rachel BILONGO</h6>
-				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Missionnaire Splendeur</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae</p>
-				        </div>
-				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
-							<a class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" data-target="rachel-bio-modal" modal open="homectrl.open">En savoir plus</a>
-				        </div>
-				      </div>
-				    </div>
-				</div>
-			</div>
 
 		</div>
 	 </div>
@@ -209,7 +157,8 @@
 
 
 
-			    <!-- Romuald Bio -->
+
+			    <!-- Chantres splendeur Bio -->
 				<!-- Modal Structure -->
 				<div id="david-bio-modal" class="modal">
 				    <div class="modal-content">
@@ -220,11 +169,11 @@
 
 						<div class="row mg-margin-top-10 mg-margin-bottom-5">
 							<div class="col s7">
-								<h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Romuald KOFFI</h5>
-								<h6 class="mg_sec_color_1 mg-semi-italic left-align">Chantre Fondateur David School</h6>
+								<h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;"></h5>
+								<h6 class="mg_sec_color_1 mg-semi-italic left-align">Chorale Gospel La Splendeur</h6>
 							 </div>
 							<div class="col s3">				
-									<?=$this->Html->image('partner/partner1.jpg',['style'=>'width:80%;']) ?>
+									<?=$this->Html->image('assets/tabernacle_logo_2.png',['style'=>'width:80%;']) ?>
 							  </div>
 						</div>
 					

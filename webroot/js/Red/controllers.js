@@ -52,7 +52,9 @@ angular.module('tabernacle.controllers',[])
 			var self = this;
 			angular.element('.materialboxed').materialbox();
 		    angular.element('.tooltipped').tooltip({delay:50});
-		    angular.element('.scrollspy').scrollSpy();
+		    angular.element('.scrollspy').scrollSpy({
+		    	scrollOffset:10
+		    });
 		    angular.element('.carrousel-container').slick({
 		          infinite: true,
 		          slidesToShow: 1,
