@@ -13,7 +13,7 @@ angular.module('tabernacle.controllers',[])
             });
 
 		    if(checkCookie.data.banner_state === "undone")
-		        $rootScope.openModal = true;
+		        $rootScope.openModal = true;	
 
 		    //manage newsletter
 		    self.renew_newsletter_object = function(){
@@ -209,7 +209,6 @@ angular.module('tabernacle.controllers',[])
 		                for(let i in months)
 		                {
 		                	i++;
-		                	console.log(i);
 		                    if (i == parseInt(element.ref_month))
 		                    {
 		                        element.ref_month_full = months[i-1];
