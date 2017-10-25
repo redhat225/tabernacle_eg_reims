@@ -256,30 +256,33 @@ angular.module('tabernacle.controllers',[])
 		    };
 
 		    // Get Poster
+		    self.dig_poster = function(){
+			    PosterService.get().then(function(response){
+			    	self.poster = response.data.poster;
+			    	if(self.poster.ref_month)
+			    	{
+				        var months = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+				        for(let i in months)
+				        {
+				             i++;
+				                    if (i == parseInt(self.poster.ref_month))
+				                    {
+				                        self.poster.ref_month_full = months[i-1];
+				                    }
+				        }
+				        self.display_poster = true;
 
-		    PosterService.get().then(function(response){
-		    	self.poster = response.data.poster;
+			    	}else
+			    	    self.display_poster = false;
 
-		    	if(self.poster.ref_month)
-		    	{
-			        var months = ['Janvier','Fevrier','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
-			        for(let i in months)
-			        {
-			             i++;
-			                    if (i == parseInt(self.poster.ref_month))
-			                    {
-			                        self.poster.ref_month_full = months[i-1];
-			                    }
-			        }
-			        self.display_poster = true;
+			    }, function(errResponse){
+			    	Materialize.toast('Une Erreur est survenue, veuillez recharger la page',4000,'red white-text bold');
+			    }).finally(function(){
+			    	self.hide_poster_loading = true;
+			    });
+		    };
 
-		    	}else
-		    	    self.display_poster = false;
-
-		    }, function(errResponse){
-		    	Materialize.toast('Une Erreur est survenue, veuillez recharger la page',4000,'red white-text bold');
-		    });
-
+		    self.dig_poster();
 		    //subscription training
 		    self.renew_subscriber_training = function(){
 			    self.subscriber_training = {

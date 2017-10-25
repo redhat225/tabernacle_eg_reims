@@ -34,6 +34,12 @@
 		       </div>
 	</div>
 
+	<!-- A l'Affiche preloader -->
+	<div class="row mg-margin-0 mg-padding-0 grey lighten-4">
+	    <div class="progress mg_prim_background" ng-hide="homectrl.hide_poster_loading">
+	         <div class="indeterminate mg_sec_background_1"></div>
+	    </div>
+	</div>
 
 	<!-- A l'Affiche  -->
 	<div ng-show="homectrl.display_poster" class="row center mg-margin-bottom-0 grey lighten-4 mg-padding-top-40 mg-padding-bottom-40">

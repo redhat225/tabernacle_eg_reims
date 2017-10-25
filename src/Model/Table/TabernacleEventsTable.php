@@ -83,6 +83,10 @@ class TabernacleEventsTable extends Table
             ->scalar('event_guest')
             ->allowEmpty('event_guest');
 
+        $validator
+            ->scalar('event_poster')
+            ->allowEmpty('event_poster');
+
         return $validator;
     }
 }

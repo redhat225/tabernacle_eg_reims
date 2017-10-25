@@ -128,8 +128,6 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                      </div>
                 </div>
               </div>
-
-          </div>
     </div>
 
     <!-- Front-Modal-Box Event -->

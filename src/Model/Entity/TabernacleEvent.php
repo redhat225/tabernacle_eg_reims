@@ -16,6 +16,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime $modified
  * @property \Cake\I18n\FrozenTime $deleted
  * @property string $event_guest
+ * @property string $event_poster
  */
 class TabernacleEvent extends Entity
 {
