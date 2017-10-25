@@ -9,7 +9,7 @@
 			            </div>
 			            <div class="card-action" style="border-top:2px solid #e7cf65;">
 			              <a href="#joinus" class="btn mg_prim_background mg-semi">Je suis nouveau</a>	
-			              <a href="#program-container" class="btn mg_sec_background_1 mg-bold mg_prim_color">Profession de foi</a>
+			              <a href="/faith" target="_blank" class="btn mg_sec_background_1 mg-bold mg_prim_color">Profession de foi</a>
 			              <a href="#program-container" class="btn mg_sec_background_1 mg-bold mg_prim_color">Le programme</a>
 			            </div>
 			          </div>
@@ -43,15 +43,30 @@
 				<h5 class="uppercase mg_prim_color mg-semi mg-margin-left-10 left-align">à l'affiche</h5>
 				<div class="divider"></div>
 				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">{{homectrl.poster.event_fullname}}</h4>
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">								{{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}}</h5>
+
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="!homectrl.poster.event_end_date">								{{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}} à {{homectrl.poster.event_begin_date | date:'H:m'}}</h5>
+
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="homectrl.poster.event_end_date">à partir du {{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}}</h5>
+	
+
+				<h5 ng-if="homectrl.poster.event_location" class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">{{homectrl.poster.event_location}}
+				</h5>
+
+				<a data-target='prime_event_modal' modal class="mg-margin-top-10 btn mg_prim_background white-text hoverable mg-semi hide-on-small-only left">En Savoir Plus</a>
+
 			</div>
-			<div class="col l6 m6 s12 left-align">
+			<div class="col l6 m6 s12 left-align" ng-if="!homectrl.poster.event_poster">
 				<p class="left-align mg-regular">
 					{{homectrl.poster.event_full_description | cut:true:350:' ...'}}
 				</p>
-				
-				<a data-target='prime_event_modal' modal class="btn mg_prim_background white-text hoverable mg-semi">En Savoir Plus</a>
 			</div>
+
+			<div class="col l6 m6 s12" ng-if="homectrl.poster.event_poster">
+				<img ng-src="/webroot/img/events/burnout.jpeg" alt="" width="100%" materialboxed class="materialboxed">
+			</div>
+
+		    <a data-target='prime_event_modal' modal class="mg-margin-top-10 btn mg_prim_background white-text hoverable mg-semi hide-on-med-and-up left">En Savoir Plus</a>
+
 		</div>
 	</div>
 
@@ -91,11 +106,20 @@
 						<div class="row mg-margin-top-10">
 							<div class="col s12 l5 m7 mg-padding-left-0">
 							    <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">{{homectrl.poster.event_fullname}}</h5>
+
+								<h6 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="!homectrl.poster.event_end_date">								{{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}} à {{homectrl.poster.event_begin_date | date:'H:m'}}</h6>
+
+								<h6 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="homectrl.poster.event_end_date">à partir du {{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}}</h6>
+
+								<h6 ng-if="homectrl.poster.event_location" class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align">{{homectrl.poster.event_location}}
+								</h6>
 							</div>
+
+
 						</div>
 					<div class="row">
 					    <div class="col s12 l11 m11 offset-l1 offset-m1 mg-padding-0">
-							<p class="mg-regular">
+							<p class="mg-regular mg-margin-top-0">
 								{{homectrl.poster.event_full_description}}
 							</p>
 					    </div>

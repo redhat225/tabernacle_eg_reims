@@ -49,6 +49,10 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->fallbacks(DashedRoute::class);
 });
 
+Router::scope('/faith', function(RouteBuilder $routes){
+	$routes->connect('/',['controller' => 'Faith', 'action'=>'index']);
+});
+
 Router::scope('/newsletter', function (RouteBuilder $routes) {
     $routes->connect('/subscribe', ['controller' => 'Newsletter', 'action' => 'subscribe']);
     $routes->connect('/unsubscribe/:token', ['controller' => 'Newsletter', 'action' => 'unsubscribe']);
