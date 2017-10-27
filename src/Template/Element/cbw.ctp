@@ -2,8 +2,8 @@
 <!-- CBW Network -->
 <div class="row mg-padding-top-40 mg-padding-bottom-40 mg-margin-bottom-0 scrollspy" id="cbw-container" style="background:url('/img/home/cbw.jpg') repeat-x;">
 	 <div class="container">
-	 	<div class="col s12">
-		    <div class="col l6 m6 s12">
+	 	<div class="col s12 mg-padding-0">
+		    <div class="col l6 m6 s12 mg-padding-left-0">
 		        <?= $this->Html->image('assets/chandelier-vector.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
 				<h5 class="uppercase mg_sec_color_1 mg-semi mg-margin-left-10">Le réseau</h5>
 				<div class="divider mg_sec_background"></div>
@@ -36,8 +36,8 @@
 
 
 		<!-- Pricing CBW -->
-		<div class="row center container event-area">
-		     <div class="col l6 m6 s12 mg-margin-top-40">
+		<div class="row center container event-area mg-padding-0">
+		     <div class="col l6 m6 s12 mg-margin-top-40 mg-padding-left-0">
 				<div class="card horizontal">
 				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
@@ -60,7 +60,7 @@
 				      </div>
 				 </div>
 		     </div>
-		     <div class="col l6 m6 s12 mg-margin-top-40">
+		     <div class="col l6 m6 s12 mg-margin-top-40 mg-padding-left-0">
 				<div class="card horizontal">
 				    <div class="card-image" style="background: #e8d061;" style="min-height:400px;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
@@ -84,10 +84,10 @@
 			</div>
 		</div>
 
-		<div class="row center container event-area">
-		     <div class="col l6 m6 s12 mg-margin-top-40">
+		<div class="row center container event-area mg-padding-0">
+		     <div class="col l6 m6 s12 mg-margin-top-40 mg-padding-left-0">
 				<div class="card horizontal">
-				    <div class="card-image" style="background: #e8d061;" style="min-height:400px;">
+				    <div class="card-image" style="background: #e8d061;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
@@ -107,13 +107,13 @@
 				      </div>
 				 </div>
 		     </div>
-		     <div class="col l6 m6 s12 mg-margin-top-40">
+		     <div class="col l6 m6 s12 mg-margin-top-40 mg-padding-left-0">
 				<div class="card horizontal">
-				    <div class="card-image" style="background: #e8d061;">
+				    <div class="card-image" style="background: #e8d061;" style="min-height:400px;">
 				        <?= $this->Html->image('home/card_plain_element.png',['class'=>'activator']) ?>
 				    </div>
 				      <div class="card-stacked">
-				        <div class="card-content mg_prim_color" style="min-height:400px;"> 
+				        <div class="card-content mg_prim_color" style="min-height:400px;">
 				          <h6 class="mg-bold left-align uppercase">Winner Royal</h6>
 				          <div class="divider yellow"></div>
 				          <h6 class="mg-bold mg_sec_color_1 left-align">Participation +500&euro;/an</h6>
@@ -130,6 +130,8 @@
 				 </div>
 			</div>
 		</div>
-
 </div>
+
+
+
 

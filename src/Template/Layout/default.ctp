@@ -85,7 +85,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
 
                     <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link">Formation</a></li>
                     <li><a href="#cbw-container" class="mg-bold mg_prim_color navbar-link">CBW</a></li>
-                    <li><a href="#donate-container" class="mg-bold mg_prim_background white-text">Faire un don</a></li>
+                    <li><a class="mg-bold mg_prim_background white-text" modal data-target="donation_modal">Faire un don</a></li>
                     <li><a href="#!" class="mg-bold mg_sec_background_1 mg_prim_color" ui-sref="app.contact">Contact</a></li>
                   </ul>
 
@@ -132,6 +132,9 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
 
     <!-- Front-Modal-Box Event -->
     <?= $this->element('modal-event') ?>
+    <!-- Make a donation modal box Event -->
+    <?= $this->element('modal-donation') ?>
+    
 
 
     <?= $this->Html->script('Red/app') ?>

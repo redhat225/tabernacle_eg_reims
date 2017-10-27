@@ -137,7 +137,7 @@
 				          <h6 class="mg-bold left-align">Chorale Gospel La Splendeur</h6>
 				          <div class="divider yellow"></div> 
 				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Chantres</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae</p>
+				          <p class="mg-regular left-align">Accompagner les missions spirituels en adorant Dieu en esprit et en vérité par des prières ou des cantiques...</p>
 				        </div>
 				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
              				<a  class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" modal data-target="david-bio-modal">En savoir plus</a>
@@ -169,8 +169,8 @@
 
 						<div class="row mg-margin-top-10 mg-margin-bottom-5">
 							<div class="col s7">
-								<h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;"></h5>
-								<h6 class="mg_sec_color_1 mg-semi-italic left-align">Chorale Gospel La Splendeur</h6>
+								<h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Gospel La Splendeur</h5>
+								<h6 class="mg_sec_color_1 mg-semi-italic left-align">Chorale TGA</h6>
 							 </div>
 							<div class="col s3">				
 									<?=$this->Html->image('assets/tabernacle_logo_2.png',['style'=>'width:80%;']) ?>
@@ -179,10 +179,16 @@
 					
 						<div class="row">
 							<div class="col s12 m11 l11 offset-m1 offset-l1">
-							   <h5 class="mg_prim_color mg-semi left-align">Biographie</h5>
+							   <h5 class="mg_prim_color mg-semi left-align">Le Choeur</h5>
 							   <div class="divider"></div>
 							   <p class="mg-regular left-align">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequatur ex laborum quam dignissimos, omnis explicabo atque quis aut et vitae tempora corporis quod ad doloremque aspernatur autem ab a.
+								  C’est un espace ou l’on prie Dieu par la musique et par la danse. Par des chants, cantiques, psaumes, tambourins, cithares... qui nous conduisent dans l’adoration du père avec joie. Une joie venant du cœur de l’homme envers son Dieu d’amour. (1 chron 15,27)
+								</p>
+
+								<h5 class="mg_prim_color mg-semi left-align">Objectif</h5>
+							   <div class="divider"></div>
+							   <p class="mg-regular left-align">
+									Accompagner les missions spirituels en adorant Dieu en esprit et en vérité par des prières ou des cantiques.  Donner a Dieu sa vraie valeur. Le mettre à sa place et reconnaitre sa gra	ndeur et sa sainteté.  (Eph 5 :19) car le Seigneur aime habiter dans la louange et l’adoration de son peuple.
 								</p>
 							</div>
 						</div>

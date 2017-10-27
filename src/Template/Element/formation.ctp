@@ -3,10 +3,12 @@
 <div class="row mg-padding-top-40 mg-padding-bottom-40 grey lighten-4 scrollspy mg-margin-bottom-0" id="formation-container">
      <div class="container">
 		  <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-55 left mg-margin-right-10']) ?>
-	      <h5 class="uppercase mg_prim_color mg-semi">Formation</h5>
+	      <h5 class="uppercase mg_prim_color mg-semi">Formations Spirituelles</h5>
 		           <div class="divider"></div>
 	      <h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10" style="clear: both;">Tabernacle de gloire</h4>
 	      <h4 class="uppercase mg_prim_color mg-bold">Et d'alliance</h4>
+			
+		  <h6 class="mg-size-17">Notre objectif vous donner les armes nécessaires pour accomplir votre mission divine sur la terre pour cela nous vous proposons 3 types de formations. Matthieu 7v19 - <span class="bold">Tout arbre qui ne porte pas de bons fruits est coupé et jeté au feu.</span></h6>
 
 		<div class="row center event-area">
 		     <div class="col l6 m6 s12 mg-margin-top-30">
@@ -18,8 +20,8 @@
 				        <div class="card-content mg_prim_color" style="min-height:400px;">
 				          <h6 class="mg-bold left-align uppercase">retraites spirituelles</h6>
 				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
+				          <br>
+				          <p class="mg-regular left-align">C’est un temps privilégié où l’on se met en retrait de ses activités pour réfléchir, méditer et prier. La retraite peut durer de un à trois avec un régime alimentaire spécial...
 				          </p>
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
@@ -28,8 +30,10 @@
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
-					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
-					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
+					      <span class="card-title left-align mg_prim_color mg-bold">retraites spirituelles<i class="ion-close right small"></i></span>
+					      <p class="mg-semi left-align mg_prim_color">
+								C’est un temps privilégié où l’on se met en retrait de ses activités pour réfléchir, méditer et prier. La retraite peut durer de un à trois jours avec un régime alimentaire spéciale. Pendant ce temps une véritable cure d'âme et restauration spirituelle à lieu grâce aux différentes activités et exercices spirituelles réalisés à l'aide d'une équipe de guide spirituel spécialisé dans le ministère de la guérison de l'âme, la délivrance, et l'enseignement. Les retraites sont des thérapies efficace pour retrouver un équilibre saint elles ont lieu dans un cadre favorable à la rencontre avec le Saint-Esprit. Etudes bibliques  écoles discipolats ( predications-serviteur-guerriers de prieres-pasteur) cours de baptême et préparation au mariage sont aussi nos principales missions. <strong>Luc 4v17-19</strong> - <i>Et on lui remit le livre du prophète Esaïe. L'ayant déroulé, il trouva l'endroit où il était écrit: L'Esprit du Seigneur est sur moi, Parce qu'il m'a oint pour annoncer une bonne nouvelle aux pauvres; Il m'a envoyé pour guérir ceux qui ont le coeur brisé, Pour proclamer aux captifs la délivrance, Et aux aveugles le recouvrement de la vue, pour renvoyer libres les opprimés, pour publier une année de grâce du Seigneur.</i>
+					      </p>
 
 					      <a ng-click="homectrl.subscriber_training.training_title = 'Retraites Spirituelles'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
@@ -45,11 +49,13 @@
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color" style="min-height:400px;">
-				          <h6 class="mg-bold left-align uppercase">3 Jours de transformation</h6>
+				          <h6 class="mg-bold left-align uppercase">Epanouissement personnel</h6>
 				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
+				          <br>
+				          <p class="mg-regular left-align"><strong>3jean3v2</strong> - Bien-aimé, je souhaite que tu prospères à tous égards et sois en bonne santé, comme prospère l'état de ton âme...
 				          </p>
+							<a href="#cbw-container" class="btn mg_sec_background_1 mg-margin-top-15 left mg_prim_color bold">CBW</a>
+
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
@@ -57,9 +63,11 @@
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
-					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
-					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					      <span class="card-title left-align mg_prim_color mg-bold">Epanouissement personnel<i class="ion-close right small"></i></span>
+					      <p class="mg-semi left-align mg_prim_color">
+					      	<strong>3jean3v2</strong> Bien-aimé, je souhaite que tu prospères à tous égards et sois en bonne santé, comme prospère l'état de ton âme.
+					      </p>
+					         <a ng-click="homectrl.subscriber_training.training_title = 'Epanouissement personnel'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -70,21 +78,26 @@
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color" style="min-height:400px;">
-				          <h6 class="mg-bold left-align uppercase">3 Jours de transformation</h6>
-				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
-				          </p>
-				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
+					          <h6 class="mg-bold left-align uppercase">Epanouissement personnel</h6>
+					          <div class="divider yellow"></div>
+					          <br>
+					          <p class="mg-regular left-align"><strong>3jean3v2</strong> - Bien-aimé, je souhaite que tu prospères à tous égards et sois en bonne santé, comme prospère l'état de ton âme...
+					          </p>
+					          <a href="#cbw-container" class="btn mg_sec_background_1 mg-margin-top-15 left mg_prim_color bold">CBW</a>
+					          <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1">
+					          	 <i class="ion-plus-round mg_prim_color"></i>
+					          </a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
-			               <a  ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+			               <a  ng-click="homectrl.subscriber_training.training_title = 'Epanouissement personnel'" data-target="training_modal" modal  class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
-					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
-					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					      <span class="card-title left-align mg_prim_color mg-bold">Epanouissement personnel<i class="ion-close right small"></i></span>
+					      <p class="mg-semi left-align mg_prim_color">
+					      	<strong>3jean3v2</strong> Bien-aimé, je souhaite que tu prospères à tous égards et sois en bonne santé, comme prospère l'état de ton âme.
+					      </p>
+					         <a ng-click="homectrl.subscriber_training.training_title = 'Epanouissement personnel'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -95,11 +108,12 @@
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color" style="min-height:400px;">
-				          <h6 class="mg-bold left-align uppercase">3 Jours de transformation</h6>
+				          <h6 class="mg-bold left-align uppercase">Formation musicale</h6>
 				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
+				          <br>
+				          <p class="mg-regular left-align">Formation musicale  avec le groupe la Splendeur formation vocal et instrumentale  mettre lien groupe splendeur...
 				          </p>
+							<a class="btn mg_sec_background_1 mg-margin-top-15 left mg_prim_color bold" modal data-target="david-bio-modal">Le choeur</a>
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
@@ -107,9 +121,9 @@
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
-					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
-					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					      <span class="card-title left-align mg_prim_color mg-bold">Formation musicale<i class="ion-close right small"></i></span>
+					      <p class="mg-semi left-align mg_prim_color">Formation musicale  avec le groupe la Splendeur formation vocal et instrumentale  mettre lien groupe splendeur.</p>
+					         <a ng-click="homectrl.subscriber_training.training_title = 'Formation musicale'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -120,11 +134,13 @@
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color" style="min-height:400px;">
-				          <h6 class="mg-bold left-align uppercase">3 Jours de transformation</h6>
+				          <h6 class="mg-bold left-align uppercase">Formation musicale</h6>
 				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
+				          <br>
+				          <p class="mg-regular left-align">Formation musicale  avec le groupe la Splendeur formation vocal et instrumentale  mettre lien groupe splendeur...
 				          </p>
+ 							<a class="btn mg_sec_background_1 mg-margin-top-15 left mg_prim_color bold" modal data-target="david-bio-modal">Le choeur</a>
+
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
@@ -132,9 +148,9 @@
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
-					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
-					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					      <span class="card-title left-align mg_prim_color mg-bold">Formation musicale<i class="ion-close right small"></i></span>
+					      <p class="mg-semi left-align mg_prim_color">Formation musicale  avec le groupe la Splendeur formation vocal et instrumentale  mettre lien groupe splendeur.</p>
+					         <a ng-click="homectrl.subscriber_training.training_title = 'Formation musicale'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>
@@ -145,11 +161,12 @@
 				    </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_color" style="min-height:400px;">
-				          <h6 class="mg-bold left-align uppercase">3 Jours de transformation</h6>
+				          <h6 class="mg-bold left-align uppercase">Formation musicale</h6>
 				          <div class="divider yellow"></div>
-				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Du 24 au 26 Février 2017</h6>  <br>
-				          <p class="mg-regular left-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, illum voluptatibus dolores velit debitis beatae Lorem ipsum dolor ..
+				          <br>
+				          <p class="mg-regular left-align">Formation musicale  avec le groupe la Splendeur formation vocal et instrumentale  mettre lien groupe splendeur...
 				          </p>
+							<a class="btn mg_sec_background_1 mg-margin-top-15 left mg_prim_color bold" modal data-target="david-bio-modal">Le choeur</a>
 				           <a class="btn-floating activator halfway-fab waves-effect waves-light mg_sec_background_1"><i class="ion-plus-round mg_prim_color"></i></a>
 				        </div>
 				         <div class="card-action" style="border-top:1px solid #e7cf65;">
@@ -157,9 +174,9 @@
 				        </div>
 				      </div>
 				      <div class="card-reveal mg_sec_background_1">
-					      <span class="card-title left-align mg_prim_color mg-bold">Card Title<i class="ion-close right small"></i></span>
-					      <p class="mg-semi left-align mg_prim_color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iure, deleniti, accusamus nam numquam assumenda distinctio! Error saepe doloremque mollitia, repellat ut odit cum adipisci tempore. Totam nostrum inventore, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quo, ut, minima voluptatum maxime deserunt voluptate cumque esse cum est, earum quas asperiores. Iure quos distinctio eos non, dolores saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quis quos tempore officiis autem ipsa earum nemo, reprehenderit excepturi hic perferendis, esse, amet iusto maxime. Illum ipsa, accusantium in voluptates.</p>
-					         <a ng-click="homectrl.subscriber_training.training_title = '3 Jours de transformation'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
+					      <span class="card-title left-align mg_prim_color mg-bold">Formation musicale<i class="ion-close right small"></i></span>
+					      <p class="mg-semi left-align mg_prim_color">Formation musicale  avec le groupe la Splendeur formation vocal et instrumentale  mettre lien groupe splendeur.</p>
+					         <a ng-click="homectrl.subscriber_training.training_title = 'Formation musicale'" data-target="training_modal" modal   class="mg_prim_color mg-semi pointer tooltipped btn mg-button-1" data-tooltip="Souscrire à cette formation" data-position="top">Souscrire</a>
 					   </div>
 				 </div>
 		     </div>

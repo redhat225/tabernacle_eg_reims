@@ -1,7 +1,5 @@
 <?= $this->element('tabernacle') ?>
 
-
-
 <?= $this->element('programme') ?>
 
 <?= $this->element('galerie') ?>

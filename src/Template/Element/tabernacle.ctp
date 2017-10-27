@@ -16,6 +16,12 @@
 			        </div>
 	           	</div>
 			    <div class="parallax carrousel-container ">
+			    				        <div class="mg-height-650">
+		               <?= $this->Html->image('front_banner/poster.jpg') ?>
+		            </div>
+		            			        <div class="mg-height-650">
+		               <?= $this->Html->image('front_banner/revfr.jpg') ?>
+		            </div>
 			        <div class="mg-height-650">
 		               <?= $this->Html->image('sec_1.jpg') ?>
 		            </div>
@@ -50,7 +56,7 @@
 				<div class="divider"></div>
 				<h4 class="uppercase mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear:both;">{{homectrl.poster.event_fullname}}</h4>
 
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="!homectrl.poster.event_end_date">								{{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}} à {{homectrl.poster.event_begin_date | date:'H:m'}}</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="!homectrl.poster.event_end_date">								{{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}} à {{homectrl.poster.event_begin_date | date:'H:mm'}}</h5>
 
 				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-10 left-align" ng-if="homectrl.poster.event_end_date">à partir du {{homectrl.poster.event_begin_date | date:'dd'}} {{homectrl.poster.ref_month_full}} {{homectrl.poster.event_begin_date | date:'yyyy'}}</h5>
 	
