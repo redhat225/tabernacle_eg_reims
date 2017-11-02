@@ -13,8 +13,8 @@
 			<h6 class="uppercase mg_prim_color mg-bold">Guichet: 01002</h6>
 			<h6 class="uppercase mg_prim_color mg-bold">Compte: 0866861r023</h6>
 			<h6 class="uppercase mg_prim_color mg-bold">Cle rib: 63</h6>
-			
-
+			<h6 class="uppercase mg_prim_color mg-bold">IBAN : FR69 2004 1010 0208 6686 1R02 363</h6>
+			<h6 class="uppercase mg_prim_color mg-bold">BIC : PSSTFRPPCHA</h6>
 	    </div>
     </div>
 </div>

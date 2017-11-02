@@ -1,13 +1,14 @@
-<div class="row center mg-margin-top-0 mg-margin-bottom-0 mg-padding-bottom-60" style="background: url('/img/contact.jpg') 100% -270px;">
+<div class="row center mg-margin-top-0 mg-margin-bottom-0 mg-padding-bottom-60" style="background: url('/img/contact.jpg') 100% -27px;">
 	<div class="container">
 		 <div class="container">
 		 	 <?= $this->Html->image('assets/tabernacle_logo_2.png',['style'=>'width:160px; cursor:pointer;','ui-sref'=>'app.home']) ?>
 		 	  <h6 class="mg-bold mg_prim_color mg-margin-bottom-20"><i>Une maison de prière pour tous où chacun se sent chez soi</i> </h6>
-		 	 <p class="mg-semi mg-margin-top-40 mg-margin-bottom-40" style="color: #2a2a2a;">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga soluta aliquid eius laboriosam nostrum unde modi possimus dolore illo, rem illum, tempora consequatur obcaecati, fugiat nisi amet eos dolorem nulla.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore reiciendis voluptas asperiores perspiciatis sint necessitatibus similique eveniet magni, iusto quam voluptate quae itaque quaerat eos, nobis error incidunt iure ratione! <br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae at ad. Ab voluptates reiciendis neque debitis. Repellat quo perspiciatis quibusdam rerum, corporis inventore vero nulla voluptas sunt! Ex, error.
-		 	 </p>
+				
+				<p>
+					<?= $this->Html->image('assets/arche.png') ?>
+				</p>
+
+
 
 		 	  <h5 class="bold" style='text-transform:uppercase;color: #2a2a2a;'>Contact</h5>
 

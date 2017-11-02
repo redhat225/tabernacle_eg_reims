@@ -137,7 +137,7 @@
 				          <h6 class="mg-bold left-align">Chorale Gospel La Splendeur</h6>
 				          <div class="divider yellow"></div> 
 				          <h6 class="mg-semi-italic mg_sec_color_1 left-align">Chantres</h6>  <br>
-				          <p class="mg-regular left-align">Accompagner les missions spirituels en adorant Dieu en esprit et en vérité par des prières ou des cantiques...</p>
+				          <p class="mg-regular left-align">Accompagner les missions spirituelles en adorant Dieu en esprit et en vérité par des prières ou des cantiques...</p>
 				        </div>
 				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
              				<a  class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" modal data-target="david-bio-modal">En savoir plus</a>
@@ -188,7 +188,7 @@
 								<h5 class="mg_prim_color mg-semi left-align">Objectif</h5>
 							   <div class="divider"></div>
 							   <p class="mg-regular left-align">
-									Accompagner les missions spirituels en adorant Dieu en esprit et en vérité par des prières ou des cantiques.  Donner a Dieu sa vraie valeur. Le mettre à sa place et reconnaitre sa gra	ndeur et sa sainteté.  (Eph 5 :19) car le Seigneur aime habiter dans la louange et l’adoration de son peuple.
+									Accompagner les missions spirituelles en adorant Dieu en esprit et en vérité par des prières ou des cantiques.Donner à Dieu sa vraie valeur. Le mettre à sa place et reconnaitre sa grandeur et sa sainteté.  (Eph 5 :19) car le Seigneur aime habiter dans la louange et l’adoration de son peuple.
 								</p>
 							</div>
 						</div>

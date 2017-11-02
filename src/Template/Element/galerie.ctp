@@ -11,7 +11,6 @@
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-5.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-4.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-2.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-1.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/n.jpg',['style'=>'width:130%;']) ?></div>

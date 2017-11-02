@@ -16,12 +16,6 @@
 			        </div>
 	           	</div>
 			    <div class="parallax carrousel-container ">
-			    				        <div class="mg-height-650">
-		               <?= $this->Html->image('front_banner/poster.jpg') ?>
-		            </div>
-		            			        <div class="mg-height-650">
-		               <?= $this->Html->image('front_banner/revfr.jpg') ?>
-		            </div>
 			        <div class="mg-height-650">
 		               <?= $this->Html->image('sec_1.jpg') ?>
 		            </div>

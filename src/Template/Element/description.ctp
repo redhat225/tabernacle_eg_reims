@@ -58,10 +58,6 @@
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
 
-	  	     <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-1.jpg',['style'=>'width:100%;','class'=>'']) ?>
-	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
-	  	    </a>
-
 	  	    <a class="carousel-item mg-width-400 mg-height-400" href="#one!"><?= $this->Html->image('carrousel_home/gal-5.jpg',['style'=>'width:100%;','class'=>'']) ?>
 	  	    	<span class="mg-bold mg_prim_color" style="display:block; text-align: center;">Fidèles adorateurs</span>
 	  	    </a>
