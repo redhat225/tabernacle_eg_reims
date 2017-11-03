@@ -128,7 +128,6 @@ class HomeController extends AppController
                 $query_data = $this->request->query;
                         $this->loadModel('TabernacleEvents');
                     
-
                         $events = $this->TabernacleEvents->find()
                                                          ->order(['TabernacleEvents.event_begin_date'=>'ASC'])
                                                          ->limit(4)

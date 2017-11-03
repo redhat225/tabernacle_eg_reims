@@ -101,7 +101,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                         <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Formation</a></li>
                         <li><a href="#cbw-container" class="mg-bold mg_prim_color navbar-link side-nav-link">CBW</a></li>
 
-                        <li><a href="#!" class="mg-bold mg_prim_color">Faire un don</a></li>
+                        <li><a  modal data-target="donation_modal" class="mg-bold mg_prim_color">Faire un don</a></li>
                         <li><a class="mg-bold mg_prim_color" ui-sref="app.contact">Contact</a></li>
 
                         <li class="mg_prim_background"><a href="https://web.facebook.com/tabernacle.ga" target="_blank" class="mg-semi mg_sec_color_1"><i class="ion-social-facebook mg-margin-right-1 mg_sec_color_1"></i> /tabernacle.ga</a></li>
