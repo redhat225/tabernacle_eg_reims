@@ -44,7 +44,7 @@ class TrainingSubscribeShell extends Shell
             $email = new Email('tabernacle_main_profile');
             $email->to($training['subscriber_email'])
             ->bcc('tabernacledallianceetdegloire@gmail.com')
-            ->subject('✝️ Inscription Newsletter TGA ✉️')
+            ->subject('✝️ Inscription Formation TGA ✉️')
             ->template('training_subscribe','blank')
             ->emailFormat('html')
             ->viewVars(['training'=>$training])
