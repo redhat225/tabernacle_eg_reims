@@ -25,9 +25,9 @@
 				</p>
 				<h4 class="uppercase mg_sec_color_1 mg-bold mg-padding-top-10" style="clear:both;">Vision</h4>
 				<p class="mg-regular white-text">
-					Une communauté internationale de gagneurs d'affaires chrétiens, une grande famille reconnue mondialement à travers ses puiussantes success stories vécues par chaque membre du réseau grâce à la mise en pratique de la parole de Dieu.
+					Une communauté internationale de gagneurs d'affaires chrétiens, une grande famille reconnue mondialement à travers ses puissantes success stories vécues par chaque membre du réseau grâce à la mise en pratique de la parole de Dieu.
 					Le monde reconnaîtra en chaque membre la puissance de notre Seigneur Jésus-Christ au travers de nos actions humanitaires, sociales, politiques et économiques dans le monde.
-					Notre marque d'excellence restera l'entraide au travers de l'amour du Christ au sein du réseau. L'adhésion à notre réseau est totalement transparent sans distinction aucune de couleur de peau, de nationalité, d'origine ou tout autre argument négativement discriminatoire.
+					Notre marque d'excellence restera l'entraide au travers de l'amour du Christ au sein du réseau. L'adhésion à notre réseau est totalement transparente et sans distinction aucune de couleur de peau, de nationalité, d'origine ou tout autre argument négativement discriminatoire.
 				</p>
 			</div>
 	 	</div>
