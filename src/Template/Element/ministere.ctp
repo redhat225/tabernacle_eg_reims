@@ -15,7 +15,7 @@
 				<div class="col l6 m12 s12" data-aos="fade-right">
 				     <div class="card horizontal">
 				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				          <?= $this->Html->image('members/rachel2.jpg') ?>
+				          <?= $this->Html->image('members/rachel.jpg') ?>
 				      </div>
 				      <div class="card-stacked">
 				        <div class="card-content mg_prim_background white-text">
