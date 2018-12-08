@@ -21,8 +21,9 @@
               <div class="col l4 s12 m12 mg-padding-left-0">
                 <h5 class="white-text">Adresse</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">5 Rue du colonel Fabien</a></li>
+                  <li><a class="grey-text text-lighten-3 mg-regular" href="#!">350 Avenue de Laon</a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">51100 Reims </a></li>
+<li><a class="grey-text text-lighten-3 mg-regular" href="#!">Parking gratuit 3 rue de mansuy</a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">France</a></li>
                   <li><a class="grey-text text-lighten-3 mg-regular" href="#!">Contact: 07-68-20-91-59</a></li>
                 </ul>
