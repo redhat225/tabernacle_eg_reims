@@ -87,8 +87,19 @@
 				<h4 class="uppercase mg_prim_color mg-bold left-align">Et d'alliance</h4>
 				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Dimanche 10-12h</h5>
 				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Vendredi 18h30-20h</h5>
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Lundi culte en ligne tel: 0755500416 code :673223</h5>
-				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Ecoutes spirituelles sur RDV le vendredi au 07-68-20-91-59</h5>
+				<h5 class="uppercase mg_prim_color mg-bold mg-padding-top-5 left-align">CULTES EN SEMAINE</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Tous les mercredis soir  Étude Biblique   de 18h30 à 20h</h5>
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Tous les vendredis soir " Station Prophétique pour Réveiller  ta Foi " de 18h à  19h
+			      <ul>
+			        <li><i class="material-icons">send</i><span>Intercession Mondial</span></li>
+			        <li><i class="material-icons">send</i><span>Déclaration  Prophétique </span></li>
+			        <li><i class="material-icons">send</i><span>Temps priere intense pour chaque cas </span></li>
+			      </ul>
+				</h5>
+
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Lundi soir culte "La RÉSERVE DE PRIERE" en ligne tel: 07.55.51.18.46 code :42.53.88</h5>
+
+				<h5 class="uppercase mg_prim_color mg-semi mg-padding-top-5 left-align">Ecoutes spirituelles sur RDV au 07-68-20-91-59</h5>
 
 
 			</div>

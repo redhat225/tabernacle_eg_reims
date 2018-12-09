@@ -129,7 +129,7 @@ class HomeController extends AppController
                         $this->loadModel('TabernacleEvents');
                     
                         $events = $this->TabernacleEvents->find()
-                                                         ->order(['TabernacleEvents.event_begin_date'=>'ASC'])
+                                                         ->order(['TabernacleEvents.event_begin_date'=>'DESC'])
                                                          ->limit(4)
                                                          ->page($query_data['page'])
                                                          ->map(function($row){

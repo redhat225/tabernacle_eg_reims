@@ -81,6 +81,9 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#tabernacle-container" class="mg-bold mg_prim_color navbar-link">Entrez dans le tabernacle</a></li>
                     <li><a href="#program-container" class="mg-bold mg_prim_color navbar-link">Programme</a></li>
+                    <!-- Prédications -->
+                    <li><a href="#predication-container" class="mg-bold mg_prim_color navbar-link">Prédications</a></li>
+                    <!-- Fin prédications -->
                     <li><a href="#galerie-container" class="mg-bold mg_prim_color navbar-link">Galerie</a></li>
 
                     <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link">Formation</a></li>
@@ -96,6 +99,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
                         </a></li>
                         <li class="mg-margin-top-105"><a href="#tabernacle-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Entrez dans le tabernacle</a></li>
                         <li><a href="#program-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Programme</a></li>
+                        <li><a href="#predication-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Prédications</a></li>
                         <li><a href="#galerie-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Galerie</a></li>
 
                         <li><a href="#formation-container" class="mg-bold mg_prim_color navbar-link side-nav-link">Formation</a></li>
@@ -154,5 +158,7 @@ $cakeDescription = 'Tabernacle de gloire et d\'alliance - Eglise';
             });
         AOS.init();
     </script>
+
+
 </body>
 </html>

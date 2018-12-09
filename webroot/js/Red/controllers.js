@@ -157,6 +157,45 @@ angular.module('tabernacle.controllers',[])
 				]
 		    });
 
+		    angular.element('.video-predication-slick-container').slick({
+			  infinite: true,
+			  speed:500,
+		      slidesToShow: 4,
+		       slidesToScroll: 4,
+		        focusOnSelect: true,
+		         centerMode:true,
+		         arrows:false,
+		         dots:true,
+		      responsive: [
+
+					{
+				      breakpoint: 1024,
+				      settings: {
+				        arrows: false,
+				        slidesToShow: 3,
+		                slidesToScroll: 3,
+				      }
+					},
+
+				    {
+				      breakpoint: 768,
+				      settings: {
+				        arrows: false,
+				        slidesToShow: 2,
+		                slidesToScroll: 2,
+				      }
+				    },
+				    {
+				      breakpoint: 480,
+				      settings: {
+				        arrows: false,
+				        slidesToShow: 1,
+				        slidesToScroll: 1,
+				      }
+				    }
+				]
+		    });
+
 		    angular.element('.video-slick-container').slick({
 			  infinite: true,
 			  speed:500,

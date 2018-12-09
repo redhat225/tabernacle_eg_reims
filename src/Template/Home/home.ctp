@@ -2,6 +2,8 @@
 
 <?= $this->element('programme') ?>
 
+<?= $this->element('predications') ?>
+
 <?= $this->element('galerie') ?>
 
 <?= $this->element('formation') ?>
