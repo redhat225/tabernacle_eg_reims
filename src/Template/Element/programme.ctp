@@ -17,7 +17,7 @@
 				    </div>
 
 					<div class="card-image" ng-if="e.event_poster" style="background: #e8d061;">
-				        <img ng-src="/webroot/img/events/{{e.event_poster}}" alt="" class="activator">
+				        <img ng-src="/img/events/{{e.event_poster}}" alt="" class="activator">
 				    </div>
 
 				      <div class="card-stacked" >

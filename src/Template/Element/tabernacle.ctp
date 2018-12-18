@@ -68,7 +68,7 @@
 			</div>
 
 			<div class="col l6 m6 s12" ng-if="homectrl.poster.event_poster">
-				<img ng-src="/webroot/img/events/burnout.jpeg" alt="" width="100%" materialboxed class="materialboxed">
+				<img ng-src="/img/events/{{homectrl.poster.event_poster}}" alt="" width="100%" materialboxed class="materialboxed">
 			</div>
 
 		    <a data-target='prime_event_modal' modal class="mg-margin-top-10 btn mg_prim_background white-text hoverable mg-semi hide-on-med-and-up left">En Savoir Plus</a>

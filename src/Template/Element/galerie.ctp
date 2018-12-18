@@ -15,9 +15,16 @@
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/n.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-6.jpg',['style'=>'width:130%;']) ?></div>
+				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_1.jpg',['style'=>'width:130%;']) ?></div>
+				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_2.jpg',['style'=>'width:130%;']) ?></div><div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_3.jpg',['style'=>'width:130%;']) ?></div>
+				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_4.jpg',['style'=>'width:130%;']) ?></div>
+		  		
 		  </div>
 
 		   <div class="container-img-2 mg-margin-top-10">
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_5.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_6.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_7.jpg',['style'=>'width:130%;']) ?></div>
 		   	    <div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/3.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/2.jpg',['style'=>'width:130%;']) ?></div>
 		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/j.jpg',['style'=>'width:130%;']) ?></div>
