@@ -8,31 +8,68 @@
 
 		  <!-- Pics Area -->
 		   <div class="container-img-1">
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-5.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-4.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-2.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/p.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/n.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/gal-6.jpg',['style'=>'width:130%;']) ?></div>
-				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_1.jpg',['style'=>'width:130%;']) ?></div>
-				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_2.jpg',['style'=>'width:130%;']) ?></div><div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_3.jpg',['style'=>'width:130%;']) ?></div>
-				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_4.jpg',['style'=>'width:130%;']) ?></div>
-		  		
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/1.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/2.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/3.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/4.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/5.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/6.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/7.jpg',['style'=>'width:130%;']) ?></div>
+				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/8.jpg',['style'=>'width:130%;']) ?></div>
+				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/9.jpg',['style'=>'width:130%;']) ?></div><div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/10.jpg',['style'=>'width:130%;']) ?></div>
+				<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/11.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/25.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/26.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/27.jpg',['style'=>'width:130%;']) ?></div>
+
 		  </div>
 
 		   <div class="container-img-2 mg-margin-top-10">
-<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_5.jpg',['style'=>'width:130%;']) ?></div>
-<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_6.jpg',['style'=>'width:130%;']) ?></div>
-<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/add_dec_7.jpg',['style'=>'width:130%;']) ?></div>
-		   	    <div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/3.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/2.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/j.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/5.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/6.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/1.jpg',['style'=>'width:130%;']) ?></div>
-		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/o.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/12.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/13.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/14.jpg',['style'=>'width:130%;']) ?></div>
+		   	    <div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/15.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/16.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/17.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/18.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/19.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/20.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/21.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/22.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/23.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/24.jpg',['style'=>'width:130%;']) ?></div>
 
+		  </div>
+		   <div class="container-img-2 mg-margin-top-10">
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/28.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/29.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/30.jpg',['style'=>'width:130%;']) ?></div>
+		   	    <div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/31.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/32.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/33.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/34.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/35.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/36.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/37.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/38.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/39.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/40.jpg',['style'=>'width:130%;']) ?></div>
+
+		  </div>
+
+		   <div class="container-img-2 mg-margin-top-10">
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/28.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/29.jpg',['style'=>'width:130%;']) ?></div>
+<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/30.jpg',['style'=>'width:130%;']) ?></div>
+		   	    <div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/41.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/42.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/43.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/44.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/45.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/46.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/47.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/48.jpg',['style'=>'width:130%;']) ?></div>
+		  		<div class="mg-margin-right-60"><?= $this->Html->image('carrousel_home/19_jan/49.jpg',['style'=>'width:130%;']) ?></div>
 		  </div>
 	</div>
 
