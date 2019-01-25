@@ -81,7 +81,6 @@ class HomeController extends AppController
                        $poster = $this->TabernacleEvents->find()
                                            ->where(['TabernacleEvents.event_begin_date >= '=>$format_actual_date])
                                            ->orWhere(['TabernacleEvents.event_end_date <= '=>$format_actual_date])
-                                           ->order(['TabernacleEvents.event_begin_date'=>'asc'])
                                            ->first();
 
                        if($poster)
