@@ -77,10 +77,10 @@ class HomeController extends AppController
                  try{
                       $this->loadModel('TabernacleEvents');
                        $actual_date  = new \DateTime();
-                       $format_actual_date  = $actual_date->format('Y-m-d');
+                       $format_actual_date  = $actual_date->format('Y-m-d H:i:s');
                        $poster = $this->TabernacleEvents->find()
                                            ->where(['TabernacleEvents.event_begin_date >= '=>$format_actual_date])
-                                           ->orWhere(['TabernacleEvents.event_end_date <= '=>$format_actual_date])
+                                           ->orWhere(['TabernacleEvents.event_end_date <= '=>$format_actual_date])  
                                            ->first();
 
                        if($poster)
