@@ -5,6 +5,6 @@
 <!-- Modal Structure -->
 <div id="demoModal" class="modal">
     <div class="modal-content mg-padding-0">
-		<?= $this->Html->image('front_banner/poster.jpg',['style'=>'width:100%;display:block;']) ?>
+        <img ng-src="/img/front_banner/{{$root.poster.event_poster}}" style="width:100%;display:block;" alt="">
     </div>
-</div>
+</di

@@ -1,5 +1,5 @@
 angular.module('tabernacle.controllers',[])
-		.controller('MainCtrl', ['$rootScope','$scope','$window','$anchorScroll','$location','checkCookie','NewsletterService', function($rootScope,$scope,$window,$anchorScroll,$location,checkCookie,NewsletterService){
+		.controller('MainCtrl', ['$rootScope','$scope','$window','$anchorScroll','$location','checkCookie','NewsletterService','AfficheService', function($rootScope,$scope,$window,$anchorScroll,$location,checkCookie,NewsletterService,AfficheService){
 		   var self = this;
 		    angular.element(".button-collapse").sideNav({
                 onOpen: function(el){
@@ -12,8 +12,18 @@ angular.module('tabernacle.controllers',[])
                 draggable: true, // Choose whether you can drag to open on touch screens,
             });
 
-		    if(checkCookie.data.banner_state === "undone")
-		        $rootScope.openModal = true;	
+			self.dig_poster = function(){
+				    AfficheService.find().then(function(response){
+				    	$rootScope.poster = response.data.poster;
+					    if(checkCookie.data.banner_state === "undone")
+					        $rootScope.openModal = true;	
+				    }, function(errResponse){
+				    	Materialize.toast('Une Erreur est survenue, veuillez recharger la page',4000,'red white-text bold');
+				    }).finally(function(){
+				    	self.hide_poster_loading = true;
+				    });
+			};
+			self.dig_poster();	
 
 		    //manage newsletter
 		    self.renew_newsletter_object = function(){
@@ -294,6 +304,7 @@ angular.module('tabernacle.controllers',[])
 		    	});
 		    };
 
+
 		    // Get Poster
 		    self.dig_poster = function(){
 			    PosterService.get().then(function(response){
@@ -322,6 +333,7 @@ angular.module('tabernacle.controllers',[])
 		    };
 
 		    self.dig_poster();
+
 		    //subscription training
 		    self.renew_subscriber_training = function(){
 			    self.subscriber_training = {
@@ -333,19 +345,19 @@ angular.module('tabernacle.controllers',[])
 		    };
 		    self.renew_subscriber_training();
 
+
 		    self.subscription_training  = function(subscription){
 			    self.is_training_subscribe = true;
 			    TrainingService.subscribe(subscription).then(function(response){
 			    	Materialize.toast('Félicitations votre demande a été prise en compte',4000,'mg_prim_background white-text bold');
 			    	self.renew_subscriber_training();
-			self.openTrainingModal = false;
-			    }, function(errResponse){	
-			    	Materialize.toast('Une erreur est survenue, veuillez réessayer',4000,'red white-text bold');
-			    }).finally(function(){
-			    	self.is_training_subscribe = false;
-			    });
+				self.openTrainingModal = false;
+				    }, function(errResponse){	
+				    	Materialize.toast('Une erreur est survenue, veuillez réessayer',4000,'red white-text bold');
+				    }).finally(function(){
+				    	self.is_training_subscribe = false;
+				    });
 		    };
-
 		}])
 		.controller('ContactCtrl', ['$scope', function($scope){
 			var self =this;

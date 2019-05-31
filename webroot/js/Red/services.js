@@ -66,3 +66,15 @@ angular.module('tabernacle.services',[])
 				}
 			}
 		}])
+		.factory('AfficheService',['$http','$q', function($http,$q){
+			return{
+				find: function(){
+					return $http.get('/home/poster')
+									.then(function(response){
+										return response;
+									}, function(errResponse){
+										return $q.reject(errResponse);
+									});
+				}
+			}
+		}])

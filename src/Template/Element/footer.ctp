@@ -61,8 +61,8 @@
           </div>
           <div class="footer-copyright mg_prim_background">
             <div class="container">
-            © 2017 TGA - Tous droits réservés
-            <a href="https://www.riehl-emmanuel.xyz" id="heartbeat" class="grey-text text-lighten-4 right" href="#!">Made With <strong id="heart">❤️</strong> By Red 
+            © 2019 TGA - Tous droits réservés
+            <a href="https://www.riehl-emmanuel.xyz" id="heartbeat" class="grey-text text-lighten-4 right" href="#!">Made With <strong id="heart">❤️</strong> By RIEHL Emmanuel 
            </a>
 
             </div>
