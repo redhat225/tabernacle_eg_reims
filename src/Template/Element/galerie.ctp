@@ -83,6 +83,36 @@
 		    <div class="col l12 m12 s12 video-slick-container mg-margin-top-10">
 
 			  		    <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/Op9YZV7678A?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
+
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/Op9YZV7678A?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
+			  		    </div>
+
+
+			  		    <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/zw2eW6Z57b8?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
+
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/zw2eW6Z57b8?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
+			  		    </div>
+
+
+			  		    <div class="relative-block" style="border:2px solid white;">
+				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/xRAOkxW5cIg?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
+				  		    </div>
+
+			  		       <div class="video-container">
+					        <iframe width="100%" height="100%" src="//www.youtube.com/embed/xRAOkxW5cIg?rel=0" frameborder="0" allowfullscreen></iframe>
+					      </div>
+			  		    </div>
+
+
+			  		    <div class="relative-block" style="border:2px solid white;">
 				  		    <div class="absolute-block is_video block-player player-icon" data-tooltip="lire la vidéo" video-attr="//www.youtube.com/embed/_VLpx_oTfNA?autoplay=1" style="top: 0px;left: 0px;width: 100%;height: 100%; z-index: 1;">
 				  		    </div>
 
