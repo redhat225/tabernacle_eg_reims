@@ -65,65 +65,6 @@
 				        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text mg-semi">Fermer</a>
 				    </div>
 				</div>
-				
-				<!-- Sheki Brizou Card -->
-				<div class="col l6 m12 s12" data-aos="fade-right">
-				     <div class="card horizontal">
-				      <div class="card-image" style="background: url(/img/assets/chandelier-vector.png) #872d87 no-repeat 1px 200px;">
-				        <?= $this->Html->image('members/daddy2.jpg') ?>
-				      </div>
-				      <div class="card-stacked">
-				        <div class="card-content mg_prim_background white-text">
-				          <h6 class="mg-bold left-align">Shekinael BRIZOU</h6>
-				          <div class="divider yellow"></div>
-				            <h6 class="mg-semi-italic mg_sec_color_1 left-align">Révérend Père Spirituel</h6>  <br>
-				          <p class="mg-regular left-align">Né le 27 mai 1976 en Côte d'Ivoire, le Révérend Anicet Brizou rencontre Dieu au début des années 90 après une adolescence partagée ...</p>
-				        </div>
-				        <div class="card-action yellow darken-2" style="border-top:1px solid #e7cf65;">
-			               <a  class="mg_prim_color mg-semi pointer tooltipped" data-tooltip="voir bio" data-position="top" modal data-target="daddy-bio-modal">En savoir plus</a>
-				        </div>
-				      </div>
-				    </div>
-				</div>
-			    
-			    <!-- Daddy Bio -->
-				<!-- Modal Structure -->
-				<div id="daddy-bio-modal" class="modal">
-				    <div class="modal-content">
-				        <?= $this->Html->image('assets/chandelier-vector-purple.png',['class'=>'mg-width-45 left mg-margin-right-10']) ?>
-						<h6 class="uppercase mg_prim_color mg-semi left-align">Le Ministère</h6>
-						<div class="divider"></div>
-						
-						<div class="row mg-margin-top-10 mg-margin-bottom-5">
-							<div class="col s7">
-							  <h5 class="mg_prim_color mg-bold mg-padding-top-10 left-align" style="clear: both;">Shekinael BRIZOU</h5>
-							  <h6 class="mg_sec_color_1 mg-semi-italic left-align">Révérend Père Spirituel</h6>
-							 </div>
-							<div class="col s3">				
-									<?=$this->Html->image('partner/partner2.png',['style'=>'width:80%;']) ?>
-							  </div>
-						</div>
-						
-						<div class="row">
-							<div class="col s12 m11 l11 offset-l1 offset-m1">
-							   <h5 class="mg_prim_color mg-semi left-align">Biographie</h5>
-							   <div class="divider"></div>
-								<p class="mg-regular left-align">
-									Né le 27 mai 1976 en Côte d'Ivoire, le Révérend Anicet Brizou rencontre Dieu au début des années 90 après une adolescence partagée entre la rue, l'école et le cambriolage. En 1995, il reçoit l'appel au ministère dans l'église de son père spirituel, le Dr Robert Dion. Ainsi commence l'histoire de la vie pastorale d'un jeune homme plein de dynamisme. Ainsi, après deux années de formation théologique, pratique et théorique, il devient coordinateur du ministère de la délivrance dans l'Église en 1998.
-									De 2000 à 2005, il a créé, en collaboration avec un collègue pastoral, une mission évangélique où il était vice-président de l'église en charge de l'évangélisation et de la réhabilitation des enfants de la rue.
-									Il a également créé Alliance Israël - Côte d'Ivoire, une ONG, pour approfondir les relations entre les deux pays (Israël et Côte d'Ivoire). En 2003, il a également mis en place, en collaboration avec des pasteurs, une banque chrétienne dans le but d'éradiquer la pauvreté dans l'Église.
-									En 2007, sous l'inspiration du Saint-Esprit, il fonde la Mission Biblique de l'Alliance en Côte d'Ivoire qui atteint, en trois ans, environ huit cent membres. Au milieu de l'année 2009, il a décidé de s'installer en Israël pour une étude approfondie de la Bible. Malheureusement, en 2011, une guerre civile a éclaté en Côte d'Ivoire qui a provoqué la destruction de l'église et se voit contraint de rentrer en Côte d'Ivoire. En août 2011 à cause de la guerre dans son pays et de l’atmosphère hostile, il décide en décembre 2011, de partir du pays. Arrivé aux États-Unis d'Amérique pour une période de repos qui s'est transformée en un voyage missionnaire, il installe à partir d'un petit groupe de prière qui a commencé en 2012, Biblical Mission of Covenant. Depuis Mars 2016, Biblical Mission of Covenant a rejoint la grande Famille de Church of God (Eglise de Dieu) et est devenue Biblical Mission of Covenant-Church of God (BMC-COG).
-									Le révérend Anicet Brizou est un homme de Dieu qui parcourt les nations et les continents pour prêcher l'évangile de son Seigneur et Sauveur, Jésus-Christ.
-								</p>
-							</div>
-						</div>
-
-				    </div>
-				    <div class="modal-footer mg_prim_background">
-				        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat white-text mg-semi">Fermer</a>
-				    </div>
-				</div>
-			</div>
 
 			<div class="row center" data-aos="fade-right">
 			    <!-- Chantre La splendeur -->
